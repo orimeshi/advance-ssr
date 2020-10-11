@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://adins.co.il</loc><priority>0.5</priority></url>
-<url><loc>http://adins.co.il/home</loc><priority>0.9</priority></url>
+<url><loc>http://adins.co.il/home</loc><priority>0.5</priority></url>
 <url><loc>http://adins.co.il/business</loc><priority>0.5</priority></url>
 <url><loc>http://adins.co.il/beauty</loc><priority>0.5</priority></url>
 <url><loc>http://adins.co.il/property</loc><priority>0.5</priority></url>
 <url><loc>http://adins.co.il/travel</loc><priority>0.5</priority></url>
-<url><loc>https://adins.co.il/cargo</loc><priority>0.5</priority></url>
-<url><loc>https://adins.co.il/sea</loc><priority>0.5</priority></url>
-<url><loc>https://adins.co.il/online</loc><priority>0.5</priority></url>
-<url><loc>https://adins.co.il/health</loc><priority>0.5</priority></url>
+<url><loc>http://adins.co.il/cargo</loc><priority>0.5</priority></url>
+<url><loc>http://adins.co.il/sea</loc><priority>0.5</priority></url>
+<url><loc>http://adins.co.il/online</loc><priority>0.5</priority></url>
+<url><loc>http://adins.co.il/health</loc><priority>0.5</priority></url>
 </urlset>
 
