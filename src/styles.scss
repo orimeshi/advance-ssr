@@ -1,1 +1,213 @@
 /* You can add global styles to this file, and also import other style files */
+.body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-width: 100vw;
+    max-width:100vw;
+    direction: rtl;
+}
+.text-align {
+    text-align: right;
+}
+.ama-font {
+    font-family: Amatic SC;
+}
+.logo-padding {
+    padding-right: 100px;
+}
+.larger-font {
+    font-size: 30px;
+}
+.space-text {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pier-img {
+    display: grid;
+    grid-template-columns: 1fr; // stretch to the full frame
+    grid-template-rows: 350px; // 350 pixels tall
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: center;
+    justify-content: center;
+  
+    .banner-image-div {
+      grid-area: 1 / 1 / 2 / 2;
+    } // image
+    .banner-overlay-div {
+      grid-area: 1 / 1 / 2 / 2;
+    } // gradient or other overlay
+  }
+
+.img-overlay-div {
+    display: grid;
+    max-width: 100%;
+    background: black;
+    background: linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.678) 30%,
+      rgba(15, 15, 15, 0) 100%
+    ); // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
+  }
+  
+.light-text {
+    text-align: center;
+    color: lightgray;
+}
+.center-text {
+    text-align: center;
+}
+#box-h1 {
+    margin-right: 15%;
+}
+#box-h2 {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+#box-h3 {
+    margin-left: 15%;
+}
+#box-b4 {
+    margin-right: 15%;
+}
+#box-b5 {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+#box-b6 {
+    margin-left: 15%;
+}
+.light-bg {
+    background-color: rgb(235, 235, 235);
+}
+.contact-align-2 {
+    margin-right: 3%;
+}
+.contact-align-1 {
+    margin-right: 20%;
+    margin-top: 1%;
+}
+
+
+
+.top-banner-section {
+    display: grid;
+    grid-template-columns: 1fr; // stretch to the full frame
+    grid-template-rows: 350px; // 350 pixels tall
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: center;
+    justify-content: center;
+  
+    .banner-image-div {
+      grid-area: 1 / 1 / 2 / 2;
+    } // image
+    .banner-overlay-div {
+      grid-area: 1 / 1 / 2 / 2;
+    } // gradient or other overlay
+  }
+
+  .banner-image {
+    display: grid;
+    min-width: 350px; // Do not resize to smaller than this.
+    width: 100%;
+    height: 100%;
+    object-fit: cover; // Using this so the image can be any size and still look halfway decent.
+  }
+
+  // Gradient overlay (layer 2)
+// gradient overlay going from black to transparent.
+// note: search for a gradient overlay generator to make this easier.
+.banner-overlay-div {
+    display: grid;
+    max-width: 100%;
+    background: black;
+    background: linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.678) 70%,
+      rgba(15, 15, 15, 0) 100%
+    ); // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
+  }
+  
+  // Banner html components (layer 3)
+  // banner text
+  .banner-text-div {
+    display: grid;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+    font-family: Amatic SC;
+  }
+
+
+  .responsive-img :hover {
+      max-width: 100%;
+      height: auto;
+  }
+  .ins-border {
+    border-radius: 15px;
+    border-color: transparent;
+    border-style: hidden;
+  }
+.ins-link {
+   padding-bottom: 50%;
+   position: relative;
+}
+.is-overlay-btn{ bottom: 0; left: 0; position: absolute; right: 0; top: 35%;} 
+
+@media screen and (max-width: 768px) {
+    .button.is-small-mobile {
+      border-radius: 2px;
+      font-size: .75rem
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+      .button.is-large-desktop {
+        border-radius: 2px;
+        font-size: 2rem;
+      }
+  }
+  .ins-banner-text {
+      font-size: 5rem;
+      color: white;
+      font-weight: bold;
+  }
+  .submit-btn {
+      margin-bottom: 5%;
+      margin-right: 25%;
+  }
+  @media screen and(max-width: 768px) {
+      .submit-is-centered {
+          margin-top: 5%;
+          margin-right: 15%;
+      }
+
+  }
+
+  .center-align {
+      align-self: center;
+  }
+  .bolder {
+      font-weight: bolder;
+  }
+  .underline {
+      text-decoration: underline;
+  }
+  .underline-style {
+      text-decoration-style: wavy;
+      text-decoration: underline;
+  }
+
+  .contact-button {
+      margin-bottom: 10%;
+  }
+  .property {
+      image-resolution: 2604px 1752px;
+  }
