@@ -13,9 +13,13 @@ export class HomeComponent implements OnInit {
   constructor(private titleService: Title) { }
 
   alertSuccess(){
-    alert('פנייתך התקבלה בהצלחה!');
+   
+      alert('פנייתך התקבלה בהצלחה!');
+    
   
   }
+
+
 
   ngOnInit(){
     this.titleService.setTitle(this.title);
