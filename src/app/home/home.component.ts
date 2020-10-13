@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { fromEvent } from 'rxjs';
 
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -9,6 +11,7 @@ import { fromEvent } from 'rxjs';
 })
 export class HomeComponent implements OnInit {
   title = 'עמוד הבית - איילת דן אדוונס ביטוחים';
+
 
   constructor(private titleService: Title) { }
 
@@ -19,10 +22,13 @@ export class HomeComponent implements OnInit {
   
   }
 
-
+  
 
   ngOnInit(){
     this.titleService.setTitle(this.title);
+
+
+
   }
 
 }

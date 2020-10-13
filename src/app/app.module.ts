@@ -1,6 +1,6 @@
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -12,6 +12,7 @@ import { HealthComponent } from './health/health.component';
 import { BusinessComponent } from './business/business.component';
 import { TravelComponent } from './travel/travel.component';
 import { PropertyComponent } from './property/property.component';
+
 
 @NgModule({
   declarations: [
@@ -28,9 +29,13 @@ import { PropertyComponent } from './property/property.component';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
+    AppRoutingModule,
   ],
-  providers: [Title],
+  providers: [Title,
+    
+
+  
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
