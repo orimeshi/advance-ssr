@@ -34,10 +34,10 @@
            מוקד שירות לקוחות PassportCard ערוך לסייע לך במצבי חירום 24/7 באמצעות מספרי חיוג חינם מכל מקום בעולם.
         </p>
         <hr>
-        <section class="light-bg">
+        <section class="">
             <div class="columns is-size-3 is-size-4-mobile center-text">
                 <div class="column is-one-third">
-                    <div class="tile is-vertical">
+                    <div class="box">
                         <strong class="title is-size-3 is-size-4-mobile underline">אמנת השירות</strong>
                         <p class="has-text-weight-semibold is-size-4 is-size-5-mobile">
                             ל- PassportCard אמנת שירות המחייבת את כל עובדיה ומעמידה רף גבוה של זמינות ואיכות בטיפול בלקוחות וכוללת פיצוי כספי ללקוחות במקרה של אי עמידה בהתחייבות מהסטנדרט שנקבע.
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="tile-is-vertical">
+                    <div class="box">
                         <strong class="title is-size-3 is-size-4-mobile underline">ניסיון עשיר</strong>
                         <p class="has-text-weight-semibold is-size-4 is-size-5-mobile">
                             השילוב המוצלח בין חברת הביטוח "הפניקס" ובין "DavidShield" מעמיד לרשותך את כל הניסיון שנצבר ברחבי העולם הכולל שירותים רפואיים, שירותי חילוץ ופיצוי בגין אובדן כבודה ורכוש נוסף.
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="tile-is-vertical">
+                    <div class="box">
                         <strong class="title is-size-3 is-size-4-mobile underline">ייעוץ רפואי בעברית</strong>
                         <p class="has-text-weight-semibold is-size-4 is-size-5-mobile">
                           PassportCard מעמידה לרשותך חדר רופאים לצורך ייעוץ וליווי מקצועי 24 שעות ביממה לאורך כל ימות השנה.
@@ -61,10 +61,10 @@
                     </div>
                 </div>
             </div>
-            <div class="box"></div>
+            <hr>
             <div class="columns is-size-3 is-size-4-mobile center-text">
                 <div class="column is-one-third">
-                    <div class="tile is-vertical">
+                    <div class="box">
                         <strong class="title is-size-3 is-size-4-mobile underline">פריסה עולמית</strong>
                         <p class="has-text-weight-semibold is-size-4 is-size-5-mobile">
                             לשירותך מיליוני ספקים רפואיים הפזורים בכל רחבי העולם.
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="tile is-vertical">
+                    <div class="box">
                         <strong class="title is-size-3 is-size-4-mobile underline">ללא בירוקרטיה</strong>
                         <p class="has-text-weight-semibold is-size-4 is-size-5-mobile">
                             התנהלות ללא טפסים, הכל פשוט.
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="tile is-vertical">
+                    <div class="box">
                         <strong class="title is-size-3 is-size-4-mobile underline">מקצועיות</strong>
                         <p class="has-text-weight-semibold is-size-4 is-size-5-mobile">
                             PassportCard היא החברה הראשונה בישראל המקדישה את כל מאמציה לתחום ביטוח הנסיעות.
@@ -93,9 +93,9 @@
 
    <!--Columns-->
   <div class="box center-text">
-    <h1 class="title is-size-1 is-size-2-mobile ama-font">
+    <p class="title is-size-1 is-size-2-mobile ama-font">
         <strong class="underline">הביטוחים שלנו </strong>
-    </h1>
+    </p>
 </div>
 <section class="light-bg">
     <div class="columns is-centered">
@@ -172,8 +172,8 @@
     <!--Footer important copy to all pages-->
     <div id="contact">
         <div class="box is-dark notification">
-          <h1 class="title ama-font is-size-1 is-size-2-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</h1>
-          <form >
+          <p class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</p>
+          <form>
               <div class="field is-horizontal">
               <div class="control contact-align-2">
                   <input class="input is-large" type="text" placeholder="שם" required>
@@ -182,9 +182,12 @@
                   <input class="input is-large" type="text" placeholder="טלפון" required>
                 </div>
                     <div class="field">
-                  <div class="control submit-btn submit-is-centered">
-                      <button (click)="alertSuccess()" type="submit" class="button is-large is-light modal-button ama-font">
-                        <strong class="title is-size-2">שליחה</strong>
+                  <div class="control submit-is-centered submit-btn">
+                      <button (click)="alertSuccess()" type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
+                          <span>
+                              <i class="far fa-paper-plane"></i>
+                          </span>
+                        <span class="title is-size-2 bolder">שליחה</span>
                         </button>
                     </div>
                 </div>
@@ -193,13 +196,12 @@
         </div>
     </div>
     <div class="content">
-    <h1 class="title ama-font is-size-3 is-size-4-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
+    <h1 class="title ama-font is-size-3 is-size-3-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
     <div class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold">
-        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, מיקוד 4934829 <br>
+        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br>
         <a href="tel:072-2415880">טל-072-2415880</a>
         פקס-077-4702112
-        מייל - <a href="mailto:info@adins.co.il">info@adins.co.il</a>
-       
+        <a href="mailto:info@adins.co.il">info@adins.co.il</a>
     </div>
     <div class="content ama-font is-size-4 center-text has-text-weight-bold">
         <div class="center-text">כל הזכויות שמורות<i class="far icon is-small center-align fa-copyright"></i></div>
@@ -208,15 +210,9 @@
         </div>
     </div>
 </div>
+
     <!--Footer End-->
 </footer>
-                <!--Modal Requires JS-->
-                <div id="modal" class="modal">
-                    <div class="modal-background"></div>
-                    <div class="modal-content">
-                        <h1 class="title is-size-1 is-size-2-mobile ama-font has-text-weight-bold center-text">
-                            פנייתך התקבלה בהצלחה!</h1>
-                    </div>
-                    <button class="modal-close is-large"></button>
-                </div>
-                <!--Modal End-->
+
+
+

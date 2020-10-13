@@ -92,6 +92,11 @@
     margin-top: 1%;
 }
 
+@media screen and (max-width:768px){
+    .contact-align-2{
+        margin-bottom: 5%;
+    }
+}
 
 
 .top-banner-section {
@@ -183,13 +188,14 @@
       margin-bottom: 5%;
       margin-right: 25%;
   }
-  @media screen and(max-width: 768px) {
-      .submit-is-centered {
-          margin-top: 5%;
-          margin-right: 15%;
+  
+  @media screen and (max-width: 768px){
+      .submit-btn {
+        margin-top: 3%;
+        margin-left: 25%;
       }
-
   }
+
 
   .center-align {
       align-self: center;

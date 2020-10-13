@@ -64,9 +64,9 @@
 
   <!--Columns-->
   <div class="box center-text">
-    <h1 class="title is-size-1 is-size-2-mobile ama-font">
+    <p class="title is-size-1 is-size-2-mobile ama-font">
         <strong class="underline">הביטוחים שלנו </strong>
-    </h1>
+    </p>
 </div>
 <section class="light-bg">
     <div class="columns is-centered">
@@ -143,8 +143,8 @@
     <!--Footer important copy to all pages-->
     <div id="contact">
         <div class="box is-dark notification">
-          <h1 class="title ama-font is-size-1 is-size-2-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</h1>
-          <form method="POST">
+          <p class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</p>
+          <form>
               <div class="field is-horizontal">
               <div class="control contact-align-2">
                   <input class="input is-large" type="text" placeholder="שם" required>
@@ -153,9 +153,12 @@
                   <input class="input is-large" type="text" placeholder="טלפון" required>
                 </div>
                     <div class="field">
-                  <div class="control submit-btn submit-is-centered">
-                      <button (click)="alertSuccess()" type="submit" class="button is-large is-light modal-button ama-font">
-                        <strong class="title is-size-2">שליחה</strong>
+                  <div class="control submit-is-centered submit-btn">
+                      <button (click)="alertSuccess()" type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
+                          <span>
+                              <i class="far fa-paper-plane"></i>
+                          </span>
+                        <span class="title is-size-2 bolder">שליחה</span>
                         </button>
                     </div>
                 </div>
@@ -164,13 +167,12 @@
         </div>
     </div>
     <div class="content">
-    <h1 class="title ama-font is-size-3 is-size-4-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
+    <h1 class="title ama-font is-size-3 is-size-3-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
     <div class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold">
-        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, מיקוד 4934829 <br>
+        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br>
         <a href="tel:072-2415880">טל-072-2415880</a>
         פקס-077-4702112
-        מייל - <a href="mailto:info@adins.co.il">info@adins.co.il</a>
-       
+        <a href="mailto:info@adins.co.il">info@adins.co.il</a>
     </div>
     <div class="content ama-font is-size-4 center-text has-text-weight-bold">
         <div class="center-text">כל הזכויות שמורות<i class="far icon is-small center-align fa-copyright"></i></div>
@@ -179,15 +181,11 @@
         </div>
     </div>
 </div>
+
     <!--Footer End-->
 </footer>
-                <!--Modal Requires JS-->
-                <div id="modal" class="modal">
-                    <div class="modal-background"></div>
-                    <div class="modal-content">
-                        <h1 class="title is-size-1 is-size-2-mobile ama-font has-text-weight-bold center-text">
-                            פנייתך התקבלה בהצלחה!</h1>
-                    </div>
-                    <button class="modal-close is-large"></button>
-                </div>
-                <!--Modal End-->
+
+
+
+
+

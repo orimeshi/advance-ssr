@@ -23,14 +23,14 @@
 <body>
 <div class="container  ama-font is-fluid">
     <div class="center-text">
-    <strong class=" title is-size-2 is-size-3-mobile underline">ביטוח רכב, דירה, תאונות אישיות</strong>
+    <strong class=" title is-size-2 is-size-3-mobile underline">ביטוח רכב, דירה</strong>
 </div>
     <hr>
     <div class="columns">
-        <div class="column is-one-third">
+        <div class="column is-one-half">
             <div class="box">
-            <h1 class="title is-size-2 is-size-3-mobile center-text underline bolder">ביטוח רכב</h1>
-            <div class="content  is-size-4 is-size-5-mobile has-text-weight-semibold">
+            <p class="title is-size-2 is-size-3-mobile center-text underline bolder">ביטוח רכב</p>
+            <div class="content  is-size-4 is-size-4-mobile has-text-weight-semibold">
                 ביטוח רכב מכסה נזקים שנגרמו לרכב, פגיעות גוף שנגרמו לנהג או פגיעות שנגרמו לרכוש או אדם אחר במקרה של תאונה עם הרכב המבוטח.<br>
                 <ul>
                     <li>ביטוח חובה - מוגדר ע"פ חוק כחובה לרכישה לכל בעל רכב במדינת ישראל.<br>
@@ -47,9 +47,9 @@
         </div>
     </div>
     <div class="column">
-
-            <h1 class="title is-size-2 is-size-3-mobile center-text underline bolder">ביטוח דירה</h1>
-            <div class="content is-size-4 is-size-5-mobile has-text-weight-semibold">
+        <div class="box">
+            <p class="title is-size-2 is-size-3-mobile center-text underline bolder">ביטוח דירה</p>
+            <div class="content is-size-4 is-size-4-mobile has-text-weight-semibold">
                 ביטוח הדירה מורכב מביטוח תכולה וביטוח מבנה הדירה. פוליסת ביטוח זו נועדה בכדי להגן על המבוטח במקרה בו נגרם נזק למבנה הדירה או לתכולה הכלולה בה בשל התרחשות אירועי סיכון מסוימים כגון - 
                 <ul>
                     <li>שיטפון</li>
@@ -62,29 +62,16 @@
                 
             </div>
     </div>
-    <div class="column">
-        <div class="box">
-            <h1 class="title is-size-2 is-size-3-mobile center-text underline bolder">ביטוח תאונות אישיות</h1>
-            <div class="content is-size-4 is-size-5-mobile has-text-weight-semibold">
-                פוליסות ביטוח תאונות אישיות מכסה על מקרים בהם נגרמת נכות או אובדן כושר עבודה של המבוטח כתוצאה ממקרה של תאונה.<br>
-                בשל הספציפיות של כל מקרה, פוליסות ביטוח אלו מגוונות מאוד ומותאמות לרוב לכל מבוטח ע"פ תעסוקתו, מצבו הבריאותי, הכלכלי וכו'.<br><br>
-                הכיסוי בביטוח זה מכסה על כל נזק גופני שנגרם למבוטח ביקבות מגוון רחב של סוגי תאונות.<br>
-                דבר זה נכון לכל שעה, לכל מקום בעולם (בניגוד למה שנהוג לחשוב, הביטוח אינו תקף רק לארץ).<br>
-                כל זאת למעט מקרים חריגים המוסכמים ומצוינים מראש בפוליסת הביטוח.<br><br>
-                במקרים מסוימים, החוק מחייב אנשים ספציפיים לרכוש פוליסת ביטוח תאונות אישיות בשל אופי התפקיד, רגישותו או חשיבותו.<br>
-                דוגמא בולטת לכך המוזכרת פעמים רבות במקורות, היא חיוב בתי הספר לבטח את התלמידים בשטחם בביטוח זה.<br>
-                אי לכך, ביטוח זה נחשב בסיסי וחשוב ביותר.<br>
-            </div>
-        </div>
     </div>
+
 </div>
 </div>
 
    <!--Columns-->
   <div class="box center-text">
-    <h1 class="title is-size-1 is-size-2-mobile ama-font">
+    <p class="title is-size-1 is-size-2-mobile ama-font">
         <strong class="underline">הביטוחים שלנו </strong>
-    </h1>
+    </p>
 </div>
 <section class="light-bg">
     <div class="columns is-centered">
@@ -160,8 +147,8 @@
     <!--Footer important copy to all pages-->
     <div id="contact">
         <div class="box is-dark notification">
-          <h1 class="title ama-font is-size-1 is-size-2-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</h1>
-          <form >
+          <p class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</p>
+          <form>
               <div class="field is-horizontal">
               <div class="control contact-align-2">
                   <input class="input is-large" type="text" placeholder="שם" required>
@@ -170,9 +157,12 @@
                   <input class="input is-large" type="text" placeholder="טלפון" required>
                 </div>
                     <div class="field">
-                  <div class="control submit-btn submit-is-centered">
-                      <button (click)="alertSuccess()" type="submit" class="button is-large is-light modal-button ama-font">
-                        <strong class="title is-size-2">שליחה</strong>
+                  <div class="control submit-is-centered submit-btn">
+                      <button (click)="alertSuccess()" type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
+                          <span>
+                              <i class="far fa-paper-plane"></i>
+                          </span>
+                        <span class="title is-size-2 bolder">שליחה</span>
                         </button>
                     </div>
                 </div>
@@ -181,13 +171,12 @@
         </div>
     </div>
     <div class="content">
-    <h1 class="title ama-font is-size-3 is-size-4-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
+    <h1 class="title ama-font is-size-3 is-size-3-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
     <div class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold">
-        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, מיקוד 4934829 <br>
+        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br>
         <a href="tel:072-2415880">טל-072-2415880</a>
         פקס-077-4702112
-        מייל - <a href="mailto:info@adins.co.il">info@adins.co.il</a>
-       
+        <a href="mailto:info@adins.co.il">info@adins.co.il</a>
     </div>
     <div class="content ama-font is-size-4 center-text has-text-weight-bold">
         <div class="center-text">כל הזכויות שמורות<i class="far icon is-small center-align fa-copyright"></i></div>
@@ -196,15 +185,7 @@
         </div>
     </div>
 </div>
+
     <!--Footer End-->
 </footer>
-                <!--Modal Requires JS-->
-                <div id="modal" class="modal">
-                    <div class="modal-background"></div>
-                    <div class="modal-content">
-                        <h1 class="title is-size-1 is-size-2-mobile ama-font has-text-weight-bold center-text">
-                            פנייתך התקבלה בהצלחה!</h1>
-                    </div>
-                    <button class="modal-close is-large"></button>
-                </div>
-                <!--Modal End-->
+

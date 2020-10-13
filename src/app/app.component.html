@@ -3,22 +3,19 @@ $(document).ready(function() {
 $("body").addClass("body");
   });
 </script>
-<html dir=rtl class="has-navbar-fixed-top" lang="he-IL">
+<html dir=rtl lang="he-IL">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 <header>
 <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta name="description" content="
-  מחפשים ביטוח? באדוונס ביטוחים תמצאו - ביטוח ימי,ביטוח יאכטה,ביטוח אופנוע ים,ביטוח סירה,ביטוח נסיעות,ביטוח בריאות,ביטוח חיים,ביטוח רכב,ביטוח דירה,ביטוח עסק
-  "
-  >
+
      <!-- Nav Bar-->
    <nav id="navbar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
      <div class="navbar-brand">
        <a class="navbar-item" href="#navbarId">
-         <img src="https://i.ibb.co/vDf1Jmh/favicon.jpg" width="70" height="28">
+         <img src="https://i.ibb.co/vDf1Jmh/favicon.jpg" width="70" height="28" alt="סוכנות לביטוח - איילת דן אדוונס ביטוחים">
        </a>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarId" (click)="toggleBurger()" >
       <span aria-hidden="true"></span>
@@ -28,48 +25,48 @@ $("body").addClass("body");
   </div>
     <div id="navbarId" class="navbar-menu">
      <div class="navbar-end">
-      <a class="navbar-item" [routerLink]="['']">
+      <a class="navbar-item" (click)="closeBurger()" [routerLink]="['']">
         <strong>ראשי</strong>
       </a>
-     <a class="navbar-item" href="#about">
+     <a class="navbar-item" (click)="closeBurger()" href="#about">
       <strong>אודות</strong>
      </a>
-     <a class="navbar-item" href="#contact">
+     <a class="navbar-item" (click)="closeBurger()" href="#contact">
       <strong>צור קשר</strong>
      </a>
-     <a class="navbar-item" [routerLink]="['/online']">
+     <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/online']">
       <strong>ביטוח אונליין</strong>
      </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
+      <div class="navbar-item has-dropdown is-hoverable " >
+        <a class="navbar-link"  >
           <strong>ביטוחים</strong>
         </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" [routerLink]="['/sea']">
+        <div class="navbar-dropdown" >
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/sea']">
             <strong>ביטוח ימי</strong>
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" [routerLink]="['business']">
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['business']">
             <strong>ביטוח עסק</strong>
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" [routerLink]="['/beauty']">
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/beauty']">
             <strong>ביטוח מכוני יופי</strong>
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" [routerLink]="['/property']">
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/property']">
             <strong>ביטוח רכוש</strong>
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" [routerLink]="['/cargo']">
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/cargo']">
             <strong>ביטוח מטענים</strong>
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" [routerLink]="['/travel']">
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/travel']">
             <strong>ביטוח נסיעות לחו"ל</strong>
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" [routerLink]="['/health']">
+          <a class="navbar-item" (click)="closeBurger()" [routerLink]="['/health']">
             <strong>ביטוח בריאות</strong>
           </a>
         </div>
