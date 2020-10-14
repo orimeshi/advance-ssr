@@ -354,7 +354,7 @@
         <div id="contact">
             <div class="box is-dark notification">
               <p class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</p>
-              <form action="/thankyoupage" name="leads" method="POST" data-netlify="true" >
+              <form action="/thankyoupage" name="leads" method="POST" netlify>
                   <div class="field is-horizontal">
                   <div class="control contact-align-2">
                       <input id="name" class="input is-large" type="text" placeholder="שם" name="Name"  required>
@@ -365,7 +365,7 @@
                     </div>
                         <div class="field">
                       <div class="control submit-is-centered submit-btn">
-                          <button  (click)="alertSuccess()"  type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
+                          <button  type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
                               <span>
                                   <i class="far fa-paper-plane"></i>
                               </span>
