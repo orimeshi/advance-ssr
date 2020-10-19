@@ -12,7 +12,7 @@ import { HealthComponent } from './health/health.component';
 import { BusinessComponent } from './business/business.component';
 import { TravelComponent } from './travel/travel.component';
 import { PropertyComponent } from './property/property.component';
-import { ThanksComponent } from './thanks/thanks.component';
+
 
 
 @NgModule({
@@ -26,8 +26,7 @@ import { ThanksComponent } from './thanks/thanks.component';
     HealthComponent,
     BusinessComponent,
     TravelComponent,
-    PropertyComponent,
-    ThanksComponent
+    PropertyComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
