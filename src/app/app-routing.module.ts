@@ -9,7 +9,6 @@ import { OnlineComponent } from './online/online.component';
 import { SeaComponent } from './sea/sea.component';
 import { TravelComponent } from './travel/travel.component';
 import { PropertyComponent } from './property/property.component';
-import { ThanksComponent  } from './thanks/thanks.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
