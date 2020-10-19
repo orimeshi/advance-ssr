@@ -23,7 +23,7 @@ const routes: Routes = [
   {path: 'travel', component: TravelComponent},
   {path: 'property', component: PropertyComponent},
   {path: 'thankyoupage', component: ThanksComponent},
-  {path: 'thanks', redirectTo: 'thankyoupage', pathMatch: 'full'}
+  
 ];
 
 @NgModule({
