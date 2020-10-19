@@ -22,7 +22,7 @@ const routes: Routes = [
   {path: 'sea', component: SeaComponent},
   {path: 'travel', component: TravelComponent},
   {path: 'property', component: PropertyComponent},
-  {path: 'thankyoupage', component: ThanksComponent},
+  
   
 ];
 
