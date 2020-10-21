@@ -1,402 +1,468 @@
 <head id="top">
-    <title>עמוד הבית - איילת דן אדוונס ביטוחים</title>
-    <meta name="description" content="
+  <title>עמוד הבית - איילת דן אדוונס ביטוחים</title>
+  <meta
+    name="description"
+    content="
     מחפשים ביטוח? באדוונס ביטוחים תמצאו - ביטוח ימי,ביטוח יאכטה,ביטוח אופנוע ים,ביטוח סירה,ביטוח נסיעות,ביטוח בריאות,ביטוח חיים,ביטוח רכב,ביטוח דירה,ביטוח עסק
     "
-    >
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet"> 
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
-    <body>
-        <section class="hero is-medium is-light is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title text-align ama-font is-size-1 is-size-2-mobile">
-                       איילת דן - אדוונס ביטוחים
-                    </h1>
-                    <h2 class="subtitle text-align is-size-3 is-size-4-mobile ama-font logo-padding">
-                        ביטוח בהתאמה <strong class="underline-style">אישית</strong>
-                    </h2>
-                </div>
-            </div>
-            <div class="hero-foot">
-                <nav class="tabs is-centered is-medium is-fullwidth">
-                    <div class="container">
-                        <ul>
-                            <li class="is-active">
-                                <a [routerLink]="['/sea']">
-                                    <span>ביטוח ימי</span>
-                                    <span class="icon is-medium"><i class="fas fa-anchor" aria-hidden="true"></i></span>
-                                </a>
-                                
-                            </li>
-                            <li class="is-active">
-                                <a [routerLink]="['/health']">
-                                    <span>ביטוח בריאות</span>
-                                    <span class="icon is-medium"><i class="fas fa-first-aid"></i></span>
-                                </a>
-                            </li>
-                            <li class="is-active">
-                                <a [routerLink]="['/beauty']">
-                                    <span>ביטוח מכוני יופי</span>
-                                    <span class="icon is-medium"><i class="far fa-heart"></i></span>
-                                </a>
-                            </li>
-                            <li class="is-active">
-                                <a [routerLink]="['/travel']">
-                                    <span>ביטוח נסיעות לחו"ל</span>
-                                    <span class="icon is-medium"><i class="fas fa-fighter-jet"></i></span>
-                                </a>
-                            </li>
-                            <li class="is-active">
-                                <a [routerLink]="['/cargo']">
-                                    <span>ביטוח מטענים</span>
-                                    <span class="icon is-medium"><i class="fas fa-truck"></i></span>
-                                </a>
-                            </li>
-                            <li class="is-active">
-                                <a [routerLink]="['/property']">
-                                    <span>ביטוח רכוש</span>
-                                    <span class="icon is-medium"><i class="fas fa-car"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="is-active">
-                                <a [routerLink]="['/business']">
-                                    <span>ביטוח עסק</span>
-                                    <span class="icon is-medium"><i class="fas fa-dollar-sign"></i></span>
-                                </a>
-
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        
-        
-        <div class="box">
+<body>
+  <section class="hero is-medium is-light is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1
+          class="title text-align ama-font is-size-2-mobile"
+          style="font-size: 4.5rem"
+        >
+          איילת דן - אדוונס ביטוחים
+        </h1>
+        <h2
+          class="subtitle text-align is-size-4-mobile ama-font logo-padding"
+          style="font-size: 2.5rem"
+        >
+          ביטוח בהתאמה <strong class="underline-style">אישית</strong>
+        </h2>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <nav class="tabs is-centered is-medium is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active">
+              <a [routerLink]="['/sea']">
+                <span>ביטוח ימי</span>
+                <span class="icon is-medium"
+                  ><i class="fas fa-anchor" aria-hidden="true"></i
+                ></span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a [routerLink]="['/health']">
+                <span>ביטוח בריאות</span>
+                <span class="icon is-medium"
+                  ><i class="fas fa-first-aid"></i
+                ></span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a [routerLink]="['/beauty']">
+                <span>ביטוח מכוני יופי</span>
+                <span class="icon is-medium"><i class="far fa-heart"></i></span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a [routerLink]="['/travel']">
+                <span>ביטוח נסיעות לחו"ל</span>
+                <span class="icon is-medium"
+                  ><i class="fas fa-fighter-jet"></i
+                ></span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a [routerLink]="['/cargo']">
+                <span>ביטוח מטענים</span>
+                <span class="icon is-medium"><i class="fas fa-truck"></i></span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a [routerLink]="['/property']">
+                <span>ביטוח רכוש</span>
+                <span class="icon is-medium"><i class="fas fa-car"></i> </span>
+              </a>
+            </li>
+            <li class="is-active">
+              <a [routerLink]="['/business']">
+                <span>ביטוח עסק</span>
+                <span class="icon is-medium"
+                  ><i class="fas fa-dollar-sign"></i
+                ></span>
+              </a>
+            </li>
+          </ul>
         </div>
-    
-</section>
-<hr id="about">
-        <section>
-            
-                    <div  class="container ">
-                        <div class="pier-img">
-                            <div class="banner-image-div">
-                                <img class="banner-image" src="https://i.ibb.co/prjQPBz/pier-569314.jpg">
-                            </div>
-                            <div class="banner-overlay-div"></div>
-                            <div class="banner-text-div">
-                                <div class="banner-text">
-                        <h1 class="is-size-3-mobile is-size-1 ama-font has-text-weight-bold light-text underline">קצת עלינו</h1>
-                        <div class=" is-size-5-mobile is-size-4 ama-font has-text-weight-semibold light-text">
-סוכנות הביטוח איילת דן - אדוונס ביטוחים הוקמה ע"י איילת דן, סוכנת ביטוח מורשית בכל תחומי הביטוח.<br>
-ביטוחי חיים, ביטוחי בריאות, ביטוח כללי עסקים ופרט, ביטוח ימי.<br>
-אנו שייכים לקבוצת סוכנויות אגוז (1987) בע"מ המייצגים את חברות הביטוח המובילות בשוק, יתרון המאפשר התאמת הכיסוי הביטוחי לצורכי הלקוח ומתן מחירים אטרקטיביים.<br>
-השירות המוענק ע"י איילת דן - אדוונס ביטוחים הינו מקצועי אמין ואיכותי הן בעת הקמת הפוליסה והן בעת טיפול בנזקים והסדרי תביעות.
-                        </div>
-                    
+      </nav>
+    </div>
 
-                </div>
-                </div>
-
-                </div>
-            </div>
-
-        </section>
-        <hr>
-        <div class="box center-text">
-            <h1 class="title is-size-1 is-size-2-mobile ama-font">
-                <strong class="underline">למה אצלנו?</strong>
-            </h1>
+    <div class="box"></div>
+  </section>
+  <hr id="about" />
+  <section>
+    <div class="container">
+      <div class="pier-img">
+        <div class="banner-image-div" style="width: 100vw">
+          <img
+            class="banner-image"
+            src="https://i.ibb.co/prjQPBz/pier-569314.jpg"
+          />
         </div>
-        <div class="container is-fluid">
-        <section id="home-columns" class="">
-            <div class="columns is-centered">
-                <div class="column is-one-third">
-                    <div class="">
-                        <div class="box box-h1 center-text">
-                            <h1 class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold">
-                                מקצועיות
-                            </h1>
-                            <p class="content ama-font is-size-4 has-text-weight-semibold">
-                                כשמדובר בביטוח, מדובר בחיים, בנכסים שעבדנו בשבילם, מדובר ברוגע.<br>
- אצלנו לא תמצאו דאגה או חוסר שלווה, הצוות שלנו ילווה אתכם באדיבות ומקצועיות מהרגע הראשון והלאה.
-                            </p>
-                        </div>
-                        </div>
-                </div>
-                <div class="column">
-                    <div class="">
-                        <div class="box box-h2 center-text">
-                            <h1 class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold">
-                                מומחיות
-                            </h1>
-                            <p class="content ama-font is-size-4 has-text-weight-semibold">
-                               
-                                בסוכנות הביטוח איילת דן - אדוונס ביטוחים, אנו מומחים בכל סוגי הביטוחים.<br>
-                                מחפשים ביטוח ימי? ביטוח בריאות? הצוות המקצועי באדוונס ביטוחים ידאג לכול בזמן שאתם, תהנו מראש שקט.
-                            </p>
-                        </div>
-                        </div>
-                </div>
-                <div class="column">
-                    <div class="">
-                        <div class="box box-h3 center-text">
-                            <h1 class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold">
-                                שירות
-                            </h1>
-                            <p class="content ama-font is-size-4 has-text-weight-semibold">
-                                רכשתם ביטוח אבל אין עם מי לדבר? לא אצלנו.
-                                מרגע שיחת הטלפון הראשונה, אתם חברים במשפחת אדוונס, נשמח להעניק לכם שירות אישי וישיר בכל שעה.
-                                <br><br>
-                            </p>
-                        </div>
-                        </div>
-                </div>
+        <div class="banner-overlay-div"></div>
+        <div class="banner-text-div">
+          <div class="banner-text">
+            <p
+              class="is-size-3-mobile is-size-1 ama-font has-text-weight-bold light-text underline"
+            >
+              קצת עלינו
+          </p>
+            <div
+              class="is-size-5-mobile is-size-4 ama-font has-text-weight-semibold light-text"
+            >
+              סוכנות הביטוח איילת דן - אדוונס ביטוחים הוקמה ע"י איילת דן, סוכנת
+              ביטוח מורשית בכל תחומי הביטוח.<br />
+              ביטוחי חיים, ביטוחי בריאות, ביטוח כללי עסקים ופרט, ביטוח ימי.<br />
+              אנו שייכים לקבוצת סוכנויות אגוז (1987) בע"מ המייצגים את חברות
+              הביטוח המובילות בשוק, יתרון המאפשר התאמת הכיסוי הביטוחי לצורכי
+              הלקוח ומתן מחירים אטרקטיביים.<br />
+              השירות המוענק ע"י איילת דן - אדוונס ביטוחים הינו מקצועי אמין
+              ואיכותי הן בעת הקמת הפוליסה והן בעת טיפול בנזקים והסדרי תביעות.
             </div>
-        </section>
-       </div>
-        <div class="box center-text">
-            <h1 class="title is-size-1 is-size-2-mobile ama-font">
-                <strong class="underline">הביטוחים שלנו </strong>
-            </h1>
+          </div>
         </div>
-        <section class="light-bg">
-            <div class="container ">
-        <div class="columns">
-            <div class="column is-one-third">
-                <div class="container center-text ama-font">
-                    <div class="wasbox">
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="responsive-img">
-                                    <img src="https://i.ibb.co/XV66f5C/travel-1.jpg">
-                                </figure>
-                            </div>
-                            <div class="card-content center-text">
-                                <div class="content">
-                                    <p class="title is-size-2-mobile is-size-2">
-                                        ביטוח נסיעות לחו"ל
-                                    </p>
-                                    <div class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold">
-                                        ביטוח נסיעות לחו"ל באמצעות פספורטקארד, הכרטיס המגנטי.
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="button is-large is-light is-inverted  is-outlined" [routerLink]="['/travel']">
-                                <strong>למד עוד</strong>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <div class="box center-text">
+    <p class="title is-size-1 is-size-2-mobile ama-font">
+      <strong class="underline">למה אצלנו?</strong>
+    </p>
+  </div>
+  <div class="container is-fluid">
+    <section id="home-columns" class="">
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="">
+            <div class="box box-h1 center-text">
+              <p
+                class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold"
+              >
+                מקצועיות
+            </p>
+              <p class="content ama-font is-size-4 has-text-weight-semibold">
+                כשמדובר בביטוח, מדובר בחיים, בנכסים שעבדנו בשבילם, מדובר
+                ברוגע.<br />
+                אצלנו לא תמצאו דאגה או חוסר שלווה, הצוות שלנו ילווה אתכם באדיבות
+                ומקצועיות מהרגע הראשון והלאה.
+              </p>
             </div>
-
-        <div class="column ">
-            <div class="container center-text ama-font">
-                <div class="wasbox">
-            <div class="card">
+          </div>
+        </div>
+        <div class="column">
+          <div class="">
+            <div class="box box-h2 center-text">
+              <p
+                class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold"
+              >
+                מומחיות
+            </p>
+              <p class="content ama-font is-size-4 has-text-weight-semibold">
+                בסוכנות הביטוח איילת דן - אדוונס ביטוחים, אנו מומחים בכל סוגי
+                הביטוחים.<br />
+                מחפשים ביטוח ימי? ביטוח בריאות? הצוות המקצועי באדוונס ביטוחים
+                ידאג לכול בזמן שאתם, תהנו מראש שקט.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="">
+            <div class="box box-h3 center-text">
+              <p
+                class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold"
+              >
+                שירות
+            </p>
+              <p class="content ama-font is-size-4 has-text-weight-semibold">
+                רכשתם ביטוח אבל אין עם מי לדבר? לא אצלנו. מרגע שיחת הטלפון
+                הראשונה, אתם חברים במשפחת אדוונס, נשמח להעניק לכם שירות אישי
+                וישיר בכל שעה.
+                <br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="box center-text">
+    <p class="title is-size-1 is-size-2-mobile ama-font">
+      <strong class="underline">הביטוחים שלנו </strong>
+    </p>
+  </div>
+  <section class="light-bg">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="container center-text ama-font">
+            <div class="wasbox">
+              <div class="card">
                 <div class="card-image">
-                    <figure class="responsive-img">
-                        <img src="https://i.ibb.co/KxzKmdn/sea-1.jpg" >
-                    </figure>
+                  <figure class="responsive-img">
+                    <img src="https://i.ibb.co/XV66f5C/travel-1.jpg" />
+                  </figure>
                 </div>
                 <div class="card-content center-text">
-                    <div class="content">
-                        <p class="title is-size-2-mobile is-size-2">
-                            ביטוח ימי
-                        </p>
-                        <div class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold">
-                         ביטוח כלי שיט, ביטוח יאכטה, סירה, ביטוח אופנועי ים.
-                        </div>
-                    </div>
-                </div> 
-                <a class="button is-large is-light is-inverted  is-outlined" [routerLink]="['/sea']">
-                    <strong>למד עוד</strong>
-                </a>
-            </div>
-    </div>
-            </div>
-    </div>
-    <div class="column ">
-        <div class="container center-text ama-font">
-            <div class="wasbox">
-        <div class="card">
-            <div class="card-image">
-                <figure class="responsive-img">
-                    <img src="https://i.ibb.co/d5HkXPY/health.jpg" >
-                </figure>
-            </div>
-            <div class="card-content center-text">
-                <div class="content">
+                  <div class="content">
                     <p class="title is-size-2-mobile is-size-2">
-                        ביטוח בריאות
+                      ביטוח נסיעות לחו"ל
                     </p>
-                    <div class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold">
-                    ביטוח בריאות, ביטוח חיים, ביטוח תאונות אישיות ועוד.
+                    <div
+                      class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold"
+                    >
+                      ביטוח נסיעות לחו"ל באמצעות פספורטקארד, הכרטיס המגנטי.
                     </div>
+                  </div>
                 </div>
-            </div> 
-            <a class="button is-large is-light is-inverted  is-outlined" [routerLink]="['/health']">
-                <strong>למד עוד</strong>
-            </a>
+                <a
+                  class="button is-large is-light is-inverted is-outlined"
+                  [routerLink]="['/travel']"
+                >
+                  <strong>למד עוד</strong>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-</div>
-        </div>
-</div>
 
-</div>
-
-<div class="columns">
-    <div class="column is-one-third">
-        <div class="container center-text ama-font">
+        <div class="column">
+          <div class="container center-text ama-font">
             <div class="wasbox">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="responsive-img">
-                            <img src="https://i.ibb.co/YW4PV9s/beauty.jpg">
-                        </figure>
+              <div class="card">
+                <div class="card-image">
+                  <figure class="responsive-img">
+                    <img src="https://i.ibb.co/KxzKmdn/sea-1.jpg" />
+                  </figure>
+                </div>
+                <div class="card-content center-text">
+                  <div class="content">
+                    <p class="title is-size-2-mobile is-size-2">ביטוח ימי</p>
+                    <div
+                      class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold"
+                    >
+                      ביטוח כלי שיט, ביטוח יאכטה, סירה, ביטוח אופנועי ים.
                     </div>
-                    <div class="card-content center-text">
-                        <div class="content">
-                            <p class="title is-size-2-mobile is-size-2">
-                                ביטוח מכוני יופי
-
-                            </p>
-                            <div class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold">
-                                ביטוח עסק חדשני לענפי הקוסמטיקה,
-                                מיקרופיגמנטציה ואסתטיקה.                                
-                            </div>
-                        </div>
+                  </div>
+                </div>
+                <a
+                  class="button is-large is-light is-inverted is-outlined"
+                  [routerLink]="['/sea']"
+                >
+                  <strong>למד עוד</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="container center-text ama-font">
+            <div class="wasbox">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="responsive-img">
+                    <img src="https://i.ibb.co/d5HkXPY/health.jpg" />
+                  </figure>
+                </div>
+                <div class="card-content center-text">
+                  <div class="content">
+                    <p class="title is-size-2-mobile is-size-2">ביטוח בריאות</p>
+                    <div
+                      class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold"
+                    >
+                      ביטוח בריאות, ביטוח חיים, ביטוח תאונות אישיות ועוד.
                     </div>
-                    <a class="button is-large is-light is-inverted  is-outlined" [routerLink]="['/beauty']">
-                        <strong>למד עוד</strong>
-                    </a>
+                  </div>
                 </div>
+                <a
+                  class="button is-large is-light is-inverted is-outlined"
+                  [routerLink]="['/health']"
+                >
+                  <strong>למד עוד</strong>
+                </a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-<div class="column ">
-    <div class="container center-text ama-font">
-        <div class="boxwas">
-    <div class="card">
-        <div class="card-image">
-            <figure class="responsive-img">
-                <img src="https://i.ibb.co/chPF12Z/property1-1.jpg" >
-            </figure>
-        </div>
-        <div class="card-content center-text">
-            <div class="content">
-                <p class="title is-size-2-mobile is-size-2">
-                    ביטוח רכוש
-                </p>
-                <div class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold">
-                    ביטוח דירה, ביטוח רכב כולל רכבי יוקרה<br>
-                    ורכבי יבוא אישי.
-                    <br>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="container center-text ama-font">
+            <div class="wasbox">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="responsive-img">
+                    <img src="https://i.ibb.co/YW4PV9s/beauty.jpg" />
+                  </figure>
                 </div>
-            </div>
-        </div> 
-        <a class="button is-large is-light is-inverted  is-outlined" [routerLink]="['/property']">
-        <strong>למד עוד</strong>
-        </a>
-    </div>
-</div>
-    </div>
-</div>
-
-<div class="column ">
-    <div class="container center-text ama-font">
-        <div class="wasbox">
-    <div class="card">
-        <div class="card-image">
-            <figure class="responsive-img">
-                <img src="https://i.ibb.co/PZhXrfT/business.jpg" >
-            </figure>
-        </div>
-        <div class="card-content center-text">
-            <div class="content">
-                <p class="title is-size-2-mobile is-size-2">
-                    ביטוח עסק
-                </p>
-                <div class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold">
-                    ביטוח עסקים כולל ביטוח STP -
-                    ביטוח מלאי החל מקנייתו כחומר גלם.
+                <div class="card-content center-text">
+                  <div class="content">
+                    <p class="title is-size-2-mobile is-size-2">
+                      ביטוח מכוני יופי
+                    </p>
+                    <div
+                      class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold"
+                    >
+                      ביטוח עסק חדשני לענפי הקוסמטיקה, מיקרופיגמנטציה ואסתטיקה.
+                    </div>
+                  </div>
                 </div>
+                <a
+                  class="button is-large is-light is-inverted is-outlined"
+                  [routerLink]="['/beauty']"
+                >
+                  <strong>למד עוד</strong>
+                </a>
+              </div>
             </div>
-        </div> 
-        <a class="button is-large is-light is-inverted  is-outlined" [routerLink]="['/business']">
-            <strong>למד עוד</strong>
-        </a>
-    </div>
-</div>
-    </div>
-</div>
-
-</div>
-
+          </div>
         </div>
-        </section>
 
+        <div class="column">
+          <div class="container center-text ama-font">
+            <div class="boxwas">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="responsive-img">
+                    <img src="https://i.ibb.co/chPF12Z/property1-1.jpg" />
+                  </figure>
+                </div>
+                <div class="card-content center-text">
+                  <div class="content">
+                    <p class="title is-size-2-mobile is-size-2">ביטוח רכוש</p>
+                    <div
+                      class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold"
+                    >
+                      ביטוח דירה, ביטוח רכב כולל רכבי יוקרה<br />
+                      ורכבי יבוא אישי.
+                      <br />
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="button is-large is-light is-inverted is-outlined"
+                  [routerLink]="['/property']"
+                >
+                  <strong>למד עוד</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-       
-       
-       
-       
-       
-        <hr>
-       
+        <div class="column">
+          <div class="container center-text ama-font">
+            <div class="wasbox">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="responsive-img">
+                    <img src="https://i.ibb.co/PZhXrfT/business.jpg" />
+                  </figure>
+                </div>
+                <div class="card-content center-text">
+                  <div class="content">
+                    <p class="title is-size-2-mobile is-size-2">ביטוח עסק</p>
+                    <div
+                      class="content subtitle is-size-4 is-size-4-mobile has-text-weight-semibold"
+                    >
+                      ביטוח עסקים כולל ביטוח STP - ביטוח מלאי החל מקנייתו כחומר
+                      גלם.
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="button is-large is-light is-inverted is-outlined"
+                  [routerLink]="['/business']"
+                >
+                  <strong>למד עוד</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </body>
+  <hr />
+</body>
 <footer id="footer">
-        <!--Footer important copy to all pages-->
-        <div id="contact">
-            <div class="box is-dark notification">
-              <p class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</p>
-              <form name="leads" method="POST" >
+  <!--Footer important copy to all pages-->
+  <div id="contact">
+    <div class="box is-dark notification">
+      <p
+        class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text"
+      >
+        השאר פרטיך ונחזור אליך בהקדם!
+      </p>
+      <form name="leads" method="POST">
+        <div class="field is-horizontal">
+          <div class="control contact-align-2">
+            <input
+              id="name"
+              class="input is-large"
+              type="text"
+              placeholder="שם"
+              name="Name"
+              required
+            />
+          </div>
 
-                  <div class="field is-horizontal">
-                  <div class="control contact-align-2">
-                      <input id="name" class="input is-large" type="text" placeholder="שם" name="Name"  required>
-                  </div>
-                                      
-                  <div class="control contact-align-2">
-                      <input id="phone" class="input is-large" type="text" placeholder="טלפון" name="Phone"  required>
-                    </div>
-                        <div class="field">
-                      <div class="control submit-is-centered submit-btn">
-                          <button  type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
-                              <span>
-                                  <i class="far fa-paper-plane"></i>
-                              </span>
-                            <span class="title is-size-2 bolder">שליחה</span>
-                            </button>
-                        </div>
-                    </div>
-
-                  </div>
-              </form >
+          <div class="control contact-align-2">
+            <input
+              id="phone"
+              class="input is-large"
+              type="text"
+              placeholder="טלפון"
+              name="Phone"
+              required
+            />
+          </div>
+          <div class="field">
+            <div class="control submit-is-centered submit-btn">
+              <button
+                type="submit"
+                class="button is-fullwidth is-large is-light modal-button ama-font"
+                (click)="alertSuccess()"
+              >
+                <span>
+                  <i class="far fa-paper-plane"></i>
+                </span>
+                <span class="title is-size-2 bolder">שליחה</span>
+              </button>
             </div>
+          </div>
         </div>
-        <div class="content">
-        <h1 class="title ama-font is-size-3 is-size-3-mobile center-text">איילת דן - אדוונס ביטוחים</h1>
-        <div class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold">
-            המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br>
-            <a href="tel:072-2415880">טל-072-2415880</a>
-            פקס-077-4702112
-            <a href="mailto:info@adins.co.il">info@adins.co.il</a>
-        </div>
-        <div class="content ama-font is-size-4 center-text has-text-weight-bold">
-            <div class="center-text">כל הזכויות שמורות<i class="far icon is-small center-align fa-copyright"></i></div>
-            <div class="center-text">
-                <a href="mailto:silkroadori@gmail.com">Created by Ori Meshi</a>
-            </div>
-        </div>
+      </form>
     </div>
+  </div>
+  <div class="content">
+    <p class="title ama-font is-size-3 is-size-3-mobile center-text">
+      איילת דן - אדוונס ביטוחים
+    </p>
+    <div
+      class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold"
+    >
+      המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br />
+      <a href="tel:072-2415880">טל-072-2415880</a>
+      פקס-077-4702112
+      <a href="mailto:info@adins.co.il">info@adins.co.il</a>
+    </div>
+    <div class="content ama-font is-size-4 center-text has-text-weight-bold">
+      <div class="center-text">
+        כל הזכויות שמורות<i
+          class="far icon is-small center-align fa-copyright"
+        ></i>
+      </div>
+      <div class="center-text">
+        <a href="mailto:silkroadori@gmail.com">Created by Ori Meshi</a>
+      </div>
+    </div>
+  </div>
 
-        <!--Footer End-->
+  <!--Footer End-->
 </footer>
-
-
