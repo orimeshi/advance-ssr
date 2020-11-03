@@ -9,6 +9,11 @@ import { OnlineComponent } from './online/online.component';
 import { SeaComponent } from './sea/sea.component';
 import { TravelComponent } from './travel/travel.component';
 import { PropertyComponent } from './property/property.component';
+import { SeaformComponent } from './seaform/seaform.component';
+import { PropertyformComponent } from './propertyform/propertyform.component';
+import { BusinessformComponent } from './businessform/businessform.component';
+import { HealthformComponent } from './healthform/healthform.component';
+import { CargoformComponent } from './cargoform/cargoform.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -21,8 +26,15 @@ const routes: Routes = [
   {path: 'sea', component: SeaComponent},
   {path: 'travel', component: TravelComponent},
   {path: 'property', component: PropertyComponent},
-  
-  
+  {path: 'online/seaform', component: SeaformComponent},
+  {path: 'online/propertyform', component: PropertyformComponent},
+  {path: 'online/businessform', component: BusinessformComponent},
+  {path: 'online/healthform', component: HealthformComponent},
+  {path: 'online/cargoform', component: CargoformComponent},
+
+
+
+
 ];
 
 @NgModule({

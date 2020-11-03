@@ -4,11 +4,11 @@
     מחפשים ביטוח? באדוונס ביטוחים תמצאו - ביטוח ימי,ביטוח יאכטה,ביטוח אופנוע ים,ביטוח סירה,ביטוח נסיעות,ביטוח בריאות,ביטוח חיים,ביטוח רכב,ביטוח דירה,ביטוח עסק
     "
     >
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 </header>
 <body>
 
-    <section class="hero is-medium is-light is-bold">
+    <section class="hero is-medium is-dark is-bold">
         <div class="hero-body">
             <div class="container">
                 <p class="title center-text ama-font is-size-1 is-size-2-mobile underline">
@@ -20,20 +20,22 @@
             </div>
         </div>
 </section>
-<div class="box"></div>
-<div class="is-size-3 is-size-4-mobile ama-font center-text">
+<div class="box">
+<div class="is-size-2 is-size-4-mobile ama-font center-text">
     ביטוח מעולם לא היה קל יותר, בעידן של היום, ביטוח עושים באינטרנט, בקלות ובמהירות.<br>
     לחצו על הקישורים למטה לרכישת ביטוח באונליין בקלות, וקבלו שירות וטיפול מאיתנו!
 
 
     </div>
+  </div>
 
-<div class="container is-fluid">
+
+<div class="container is-fluid ">
+  <div class="box">
     <div class="columns">
-        <div class="column is-half is-centered">
+        <div class="column is-one-third">
             <div class="container center-text ama-font">
-                <div class="box">
-            <div class="card">
+            <div class="card ">
                 <div class="card-image">
                     <figure class="responsive-img">
                         <img src="https://i.ibb.co/XV66f5C/travel-1.jpg">
@@ -53,45 +55,17 @@
                     <strong>לחץ כאן</strong>
                 </a>
             </div>
-</div>
+<!--div was here-->
             </div>
     </div>
 
-    <!--Modal-->
-    <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-content">
-            <div class="box center-text">
-            <h1 class="title is-size-1 ama-font underline bolder"></h1>
-                <div class="columns">
-                    <div class="column is-one-third">
-                     <p class="title is-size-2 bolder ama-font">
-                    הפניקס
-                    </p>
-                    </div>
-                    <div class="column">
-                    <p class="title is-size-2 bolder ama-font">
-                    פספורטקארד
-                    </p>
-                    </div>
-                    <div class="column">
-                    <p class="title is-size-2 bolder ama-font">
-                    הראל
-                    </p>
-                    </div>
-                </div>
-              </div>
-           </div>
-           <button class="modal-close is-large" (click)="toggleModal()"></button>
-          </div>
-        
-                <!--Modal End-->    
+
 
 
 
     <div class="column  is-centered">
         <div class="container center-text ama-font">
-            <div class="box">
+
         <div class="card">
             <div class="card-image">
                 <figure class="responsive-img">
@@ -104,67 +78,191 @@
                         ביטוח ימי
                     </p>
                     <div class="content subtitle is-size-3 is-size-3-mobile">
-                      לרכישת ביטוח ימי וקבלת שירות וטיפול מאיתנו
+                      למילוי פרטים וקבלת הצעת מחיר לביטוח ימי בהקדם
                     </div>
                 </div>
             </div> <!--Insert sea affiliate link-->
-            <a class="button is-large is-light is-inverted  is-outlined">
+            <a class="button is-large is-light is-inverted  is-outlined"
+              [routerLink]="['/online/seaform']"
+            >
                 <strong>לחץ כאן</strong>
             </a>
         </div>
-</div>
+
         </div>
 </div>
+
+
+
+
+<div class="column ">
+  <div class="container center-text ama-font">
+
+  <div class="card">
+      <div class="card-image">
+          <figure class="responsive-img">
+              <img src="https://i.ibb.co/8sGTgqt/cargo.jpg">
+          </figure>
+      </div>
+      <div class="card-content center-text">
+          <div class="content">
+              <p class="title is-size-2-mobile is-size-2">
+                ביטוח מטענים
+              </p>
+              <div class="content subtitle is-size-3 is-size-3-mobile">
+                למילוי פרטים וקבלת הצעת מחיר לביטוח מטענים בהקדם
+              </div>
+          </div>
+      </div>
+      <a class="button is-large is-light is-inverted  is-outlined"
+      [routerLink]="['/online/cargoform']"
+      >
+          <strong>לחץ כאן</strong>
+      </a>
+  </div>
+
+  </div>
+</div>
+</div>
+
+<div class="columns">
+  <div class="column is-one-third">
+      <div class="container center-text ama-font">
+      <div class="card ">
+          <div class="card-image">
+              <figure class="responsive-img">
+                  <img src="https://i.ibb.co/d5HkXPY/health.jpg">
+              </figure>
+          </div>
+          <div class="card-content center-text">
+              <div class="content">
+                  <p class="title is-size-2-mobile is-size-2">
+                    ביטוח בריאות
+                  </p>
+                  <div class="content subtitle is-size-3 is-size-3-mobile">
+                    למילוי פרטים וקבלת הצעת מחיר לביטוח בריאות בהקדם
+                  </div>
+              </div>
+          </div>
+          <a class="button is-large is-light is-inverted  is-outlined"
+          [routerLink]="['/online/healthform']"
+          >
+
+
+              <strong>לחץ כאן</strong>
+          </a>
+      </div>
+<!--div was here-->
+      </div>
+</div>
+
+
+
+
+
+<div class="column  is-centered">
+  <div class="container center-text ama-font">
+
+  <div class="card">
+      <div class="card-image">
+          <figure class="responsive-img">
+              <img src="https://i.ibb.co/chPF12Z/property1-1.jpg" >
+          </figure>
+      </div>
+      <div class="card-content center-text">
+          <div class="content">
+              <p class="title is-size-2-mobile is-size-2">
+                  ביטוח רכב
+              </p>
+              <div class="content subtitle is-size-3 is-size-3-mobile">
+                למילוי פרטים וקבלת הצעת מחיר לביטוח רכב בהקדם
+              </div>
+          </div>
+      </div> <!--Insert sea affiliate link-->
+      <a class="button is-large is-light is-inverted  is-outlined"
+      [routerLink]="['/online/propertyform']"
+      >
+          <strong>לחץ כאן</strong>
+      </a>
+  </div>
+
+  </div>
+</div>
+
+
+
+
+<div class="column ">
+<div class="container center-text ama-font">
+
+<div class="card">
+<div class="card-image">
+    <figure class="responsive-img">
+        <img src="https://i.ibb.co/PZhXrfT/business.jpg">
+    </figure>
+</div>
+<div class="card-content center-text">
+    <div class="content">
+        <p class="title is-size-2-mobile is-size-2">
+          ביטוח עסק
+        </p>
+        <div class="content subtitle is-size-3 is-size-3-mobile">
+          למילוי פרטים וקבלת הצעת מחיר לביטוח עסק בהקדם
+        </div>
     </div>
+</div>
+<a class="button is-large is-light is-inverted  is-outlined"
+[routerLink]="['/online/businessform']"
+>
+    <strong>לחץ כאן</strong>
+</a>
+</div>
 
 </div>
+</div>
+</div>
+
+</div>
+</div>
+
 <hr>
 </body>
-<footer id="footer">
-    <!--Footer important copy to all pages-->
-    <div id="contact">
-        <div class="box is-dark notification">
-          <p class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text">השאר פרטיך ונחזור אליך בהקדם!</p>
-          <form action="https://formspree.io/f/xeqpaady" method="POST"  >
-              <div class="field is-horizontal">
-              <div class="control contact-align-2">
-                  <input class="input is-large" type="text" placeholder="שם" required>
-              </div>
-              <div class="control contact-align-2">
-                  <input class="input is-large" type="text" placeholder="טלפון" required>
-                </div>
-                    <div class="field">
-                  <div class="control submit-is-centered submit-btn">
-                      <button (click)="alertSuccess()" type="submit" class="button is-fullwidth is-large is-light modal-button ama-font" >
-                          <span>
-                              <i class="far fa-paper-plane"></i>
-                          </span>
-                        <span class="title is-size-2 bolder">שליחה</span>
-                        </button>
-                    </div>
-                </div>
-              </div>
-          </form>
-        </div>
-    </div>
-    <div class="content">
-    <p class="title ama-font is-size-3 is-size-3-mobile center-text">איילת דן - אדוונס ביטוחים</p>
-    <div class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold">
-        המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br>
-        <a href="tel:072-2415880">טל-072-2415880</a>
-        פקס-077-4702112
-        <a href="mailto:info@adins.co.il">info@adins.co.il</a>
-    </div>
-    <div class="content ama-font is-size-4 center-text has-text-weight-bold">
-        <div class="center-text">כל הזכויות שמורות<i class="far icon is-small center-align fa-copyright"></i></div>
-        <div class="center-text">
-            <a href="mailto:silkroadori@gmail.com">Created by Ori Meshi</a>
-        </div>
-    </div>
-</div>
 
-    <!--Footer End-->
-</footer>
+
+
+<!--Modal-->
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content" style="background-color: antiquewhite; margin: 0 0 0 0;">
+<div class="container is-fluid" style="margin-right: 10px;">
+
+
+      <h1 class="title is-size-1 ama-font underline bolder center-text">בחר חברת ביטוח</h1>
+          <div class="columns">
+              <div class="column is-one-third center-text">
+               <p class="title is-size-2 bolder ama-font">
+              הפניקס
+              </p>
+              </div>
+              <div class="column center-text">
+              <p class="title is-size-2 bolder ama-font">
+              פספורטקארד
+              </p>
+              </div>
+              <div class="column center-text">
+              <p class="title is-size-2 bolder ama-font">
+              הראל
+              </p>
+              </div>
+
+        </div>
+     </div>
+    </div>
+     <button class="modal-close is-large" (click)="toggleModal()"></button>
+    </div>
+
+          <!--Modal End-->
+<app-footer></app-footer>
 
 
 

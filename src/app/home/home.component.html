@@ -114,10 +114,8 @@
             >
               סוכנות הביטוח איילת דן - אדוונס ביטוחים הוקמה ע"י איילת דן, סוכנת
               ביטוח מורשית בכל תחומי הביטוח.<br />
-              ביטוחי חיים, ביטוחי בריאות, ביטוח כללי עסקים ופרט, ביטוח ימי.<br />
-              אנו שייכים לקבוצת סוכנויות אגוז (1987) בע"מ המייצגים את חברות
-              הביטוח המובילות בשוק, יתרון המאפשר התאמת הכיסוי הביטוחי לצורכי
-              הלקוח ומתן מחירים אטרקטיביים.<br />
+              ביטוחי חיים, ביטוחי בריאות, ביטוח כללי עסקים ופרט, ביטוח ימי ועוד.<br />
+
               השירות המוענק ע"י איילת דן - אדוונס ביטוחים הינו מקצועי אמין
               ואיכותי הן בעת הקמת הפוליסה והן בעת טיפול בנזקים והסדרי תביעות.
             </div>
@@ -126,18 +124,18 @@
       </div>
     </div>
   </section>
-  <hr />
-  <div class="box center-text">
+    <hr>
+  <div class="box is-dark notification center-text" style="margin-bottom: 0; border-radius: 0;">
     <p class="title is-size-1 is-size-2-mobile ama-font">
       <strong class="underline">למה אצלנו?</strong>
     </p>
   </div>
-  <div class="container is-fluid">
-    <section id="home-columns" class="">
+  <div class=" is-dark notification container is-fluid" style="border-radius: 0;">
+    <div id="home-columns" class="">
       <div class="columns is-centered">
         <div class="column is-one-third">
           <div class="">
-            <div class="box box-h1 center-text">
+            <div class="box is-dark notification box-h1 center-text">
               <p
                 class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold"
               >
@@ -154,7 +152,7 @@
         </div>
         <div class="column">
           <div class="">
-            <div class="box box-h2 center-text">
+            <div class="box is-dark notification box-h2 center-text" >
               <p
                 class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold"
               >
@@ -171,7 +169,7 @@
         </div>
         <div class="column">
           <div class="">
-            <div class="box box-h3 center-text">
+            <div class="box is-dark notification box-h3 center-text">
               <p
                 class="title ama-font is-size-2-mobile is-size-2 has-text-weight-bold"
               >
@@ -187,8 +185,10 @@
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+    </div>
+
+
   <div class="box center-text">
     <p class="title is-size-1 is-size-2-mobile ama-font">
       <strong class="underline">הביטוחים שלנו </strong>
@@ -391,78 +391,5 @@
   <hr />
 </body>
 <footer id="footer">
-  <!--Footer important copy to all pages-->
-  <div id="contact">
-    <div class="box is-dark notification">
-      <p
-        class="title ama-font is-size-1 is-size-3-mobile has-text-weight-bold center-text"
-      >
-        השאר פרטיך ונחזור אליך בהקדם!
-      </p>
-      <form name="leads" method="POST">
-        <div class="field is-horizontal">
-          <div class="control contact-align-2">
-            <input
-              id="name"
-              class="input is-large"
-              type="text"
-              placeholder="שם"
-              name="Name"
-              required
-            />
-          </div>
-
-          <div class="control contact-align-2">
-            <input
-              id="phone"
-              class="input is-large"
-              type="text"
-              placeholder="טלפון"
-              name="Phone"
-              required
-            />
-          </div>
-          <div class="field">
-            <div class="control submit-is-centered submit-btn">
-              <button
-                type="submit"
-                class="button is-fullwidth is-large is-light modal-button ama-font"
-                (click)="alertSuccess()"
-              >
-                <span>
-                  <i class="far fa-paper-plane"></i>
-                </span>
-                <span class="title is-size-2 bolder">שליחה</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-  <div class="content">
-    <p class="title ama-font is-size-3 is-size-3-mobile center-text">
-      איילת דן - אדוונס ביטוחים
-    </p>
-    <div
-      class="ama-font is-size-4 is-size-4-mobile center-text has-text-weight-bold"
-    >
-      המגשימים 20, ת.ד 7032 קריית מטלון, פתח תקווה, 4934829 <br />
-      <a href="tel:072-2415880">טל-072-2415880</a>
-      פקס-077-4702112
-      <a href="mailto:info@adins.co.il">info@adins.co.il</a>
-    </div>
-    <div class="content ama-font is-size-4 center-text has-text-weight-bold">
-      <div class="center-text">
-        כל הזכויות שמורות<i
-          class="far icon is-small center-align fa-copyright"
-        ></i>
-      </div>
-      <div class="center-text">
-        <a href="mailto:silkroadori@gmail.com">Created by Ori Meshi</a>
-      </div>
-    </div>
-  </div>
-
-  <!--Footer End-->
+<app-footer></app-footer>
 </footer>

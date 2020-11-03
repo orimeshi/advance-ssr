@@ -12,7 +12,12 @@ import { HealthComponent } from './health/health.component';
 import { BusinessComponent } from './business/business.component';
 import { TravelComponent } from './travel/travel.component';
 import { PropertyComponent } from './property/property.component';
-
+import { SeaformComponent } from './seaform/seaform.component';
+import { HealthformComponent } from './healthform/healthform.component';
+import { BusinessformComponent } from './businessform/businessform.component';
+import { CargoformComponent } from './cargoform/cargoform.component';
+import { PropertyformComponent } from './propertyform/propertyform.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,16 +31,23 @@ import { PropertyComponent } from './property/property.component';
     HealthComponent,
     BusinessComponent,
     TravelComponent,
-    PropertyComponent
+    PropertyComponent,
+    SeaformComponent,
+    HealthformComponent,
+    BusinessformComponent,
+    CargoformComponent,
+    PropertyformComponent,
+    FooterComponent
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
   ],
   providers: [Title,
-    
 
-  
+
+
   ],
   bootstrap: [AppComponent]
 })

@@ -1,11 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .body {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    min-width: 100vw;
-    max-width:100vw;
+    margin: 0 auto;
+
     direction: rtl;
 }
 
@@ -24,8 +20,8 @@
 .space-text {
     display: flex;
     flex-direction: row;
-    
-    
+
+
 }
 .pier-img {
     display: grid;
@@ -35,7 +31,7 @@
     grid-row-gap: 0px;
     align-content: center;
     justify-content: center;
-  
+
     .banner-image-div {
       grid-area: 1 / 1 / 2 / 2;
     } // image
@@ -54,7 +50,7 @@
       rgba(15, 15, 15, 0) 100%
     ); // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
   }
-  
+
 .light-text {
     text-align: center;
     color: lightgray;
@@ -108,7 +104,7 @@
     grid-row-gap: 0px;
     align-content: center;
     justify-content: center;
-  
+
     .banner-image-div {
       grid-area: 1 / 1 / 2 / 2;
     } // image
@@ -138,7 +134,7 @@
       rgba(15, 15, 15, 0) 100%
     ); // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
   }
-  
+
   // Banner html components (layer 3)
   // banner text
   .banner-text-div {
@@ -165,7 +161,7 @@
    padding-bottom: 50%;
    position: relative;
 }
-.is-overlay-btn{ bottom: 0; left: 0; position: absolute; right: 0; top: 35%;} 
+.is-overlay-btn{ bottom: 0; left: 0; position: absolute; right: 0; top: 35%;}
 
 @media screen and (max-width: 768px) {
     .button.is-small-mobile {
@@ -189,7 +185,7 @@
       margin-bottom: 5%;
       margin-right: 25%;
   }
-  
+
   @media screen and (max-width: 768px){
       .submit-btn {
         margin-top: 3%;
@@ -218,3 +214,11 @@
   .property {
       image-resolution: 2604px 1752px;
   }
+label {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  .checkbox {
+    margin-right: 15px;
+  }
+}
+

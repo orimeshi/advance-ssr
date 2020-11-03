@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { fromEvent } from 'rxjs';
-
+import { FooterComponent } from '../footer/footer.component';
 
 
 @Component({
@@ -16,10 +16,10 @@ export class HomeComponent implements OnInit {
   constructor(private titleService: Title) { }
 
   alertSuccess(){
-   
+
       alert('פנייתך התקבלה בהצלחה!');
-    
-  
+
+
   }
 
   thanks(){

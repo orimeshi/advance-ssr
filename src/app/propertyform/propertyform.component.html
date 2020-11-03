@@ -1,0 +1,1007 @@
+
+
+<div class="container is-fluid " style="margin-top: 40px; margin-bottom: 30px;">
+
+      <h1
+      class="title is-size-1 is-size-2-mobile ama-font bolder underline center-text"
+    >
+      טופס לקבלת הצעת מחיר לביטוח רכב
+    </h1>
+
+  </div>
+
+    <form id="carform"  action="https://formsubmit.co/silkroadori@gmail.com" method="POST">
+      <div class="container is-fluid is-light notification" >
+        <h2 class="title is-size-3-mobile is-size-2 ama-font">פרטי המבוטח</h2>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="">
+        <input type="hidden" name="_subject" value="בקשה חדשה להצעת מחיר לביטוח רכב!">
+<!--Add value to next!! (nextpage after submit)-->
+        <div class="columns">
+          <div class="column is-one-third">
+            <div class="label is-normal">
+              <label>שם משפחה / חברה</label>
+            </div>
+            <input class="input" type="text" name="שם משפחה / חברה" required  oninvalid="this.setCustomValidity('יש להזין שם משפחה / חברה')"
+            oninput="this.setCustomValidity('')">
+          </div>
+
+        <div class="column">
+          <div class="label is-normal">
+            <label>שם פרטי</label>
+          </div>
+          <input class="input" type="text" name="שם פרטי" required oninvalid="this.setCustomValidity('יש להזין שם פרטי')"
+          oninput="this.setCustomValidity('')">
+        </div>
+
+      <div class="column">
+        <div class="label is-normal">
+          <label>מספר ת.ז</label>
+        </div>
+        <input class="input" type="text" name="ת.ז" >
+      </div>
+
+      </div>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="label is-normal">
+            <label>עיסוק / משלח יד</label>
+          </div>
+          <input class="input" type="text" name="עיסוק / משלח יד" >
+        </div>
+        <div class="column">
+          <div class="label is-normal">
+            <label>תאריך לידה</label>
+          </div>
+          <input class="input" type="date" name="תאריך לידה" >
+        </div>
+        <div class="column">
+          <div class="label is-normal">
+            <label>ותק בנהיגה (בשנים)</label>
+          </div>
+          <input class="input" type="number" name="ותק בנהיגה" >
+        </div>
+      </div>
+
+  <div class="columns">
+    <div class="column is-one-third">
+      <div class="label is-normal">
+        <label>רחוב</label>
+      </div>
+      <input class="input" type="text" name="רחוב" >
+    </div>
+    <div class="column">
+      <div class="label is-normal">
+        <label>מס' רחוב</label>
+      </div>
+      <input class="input" type="text" name="מס' רחוב" >
+    </div>
+    <div class="column">
+      <div class="label is-normal">
+        <label>מיקוד</label>
+      </div>
+      <input class="input" type="text" name="מיקוד" >
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column is-one-third">
+      <div class="label is-normal">
+        <label>מספר טלפון נייד</label>
+      </div>
+      <input class="input" type="text" name="טלפון נייד" required
+      oninvalid="this.setCustomValidity('יש להזין מספר טלפון נייד')"
+            oninput="this.setCustomValidity('')">
+    </div>
+    <div class="column">
+      <div class="label is-normal">
+        <label>טלפון בית + קידומת  (לא חובה)</label>
+      </div>
+      <input class="input" type="text" name="טלפון בית">
+    </div>
+    <div class="column">
+      <div class="label is-normal">
+        <label>כתובת דואר אלקטרוני</label>
+      </div>
+      <input class="input" type="email" name="דואר אלקטרוני" >
+    </div>
+  </div>
+  <p class="title is-size-2 is-size-3-mobile ama-font">
+    סוג הרכב ושימושו
+  </p>
+  <div class="label is-normal">
+    <label>  סוג הרכב</label>
+  </div>
+  <div class="columns">
+    <div class="column is-half">
+  <div class="select is-fullwidth">
+  <select  name="סוג הרכב" form="carform" >
+    <option value="פרטי">
+      פרטי
+    </option>
+    <option value="מונית">
+      מונית
+    </option>
+    <option value="נגרר">
+      נגרר
+    </option>
+    <option value="מסחרי עד 3.5 טון">
+      מסחרי עד 3.5 טון
+    </option>
+    <option value="מלגזה">
+      מלגזה
+    </option>
+    <option value="טרקטור">
+      טרקטור
+    </option>
+    <option value="אוטובוס פרטי עד 15 נוסעים">
+      אוטובוס פרטי עד 15 נוסעים
+    </option>
+    <option value="אוטובוס פרטי 16-20 נוסעים">
+      אוטובוס פרטי עד 16-20 נוסעים
+    </option>
+    <option value="אוטובוס פרטי 21 נוסעים ומעלה">
+      אוטובוס פרטי 21 נוסעים ומעלה
+    </option>
+    <option value="אוטובוס ציבורי עד 15 נוסעים">
+      אוטובוס ציבורי עד 15 נוסעים
+    </option>
+    <option value="אוטובוס ציבורי  16-20 נוסעים">
+      אוטובוס ציבורי 16-20 נוסעים
+    </option>
+    <option value="אוטובוס ציבורי 21 נוסעים ומעלה">
+      אוטובוס ציבורי 21 נוסעים ומעלה
+    </option>
+    <option value="אוטובוס, תחבורה ציבורית">
+      אוטובוס, תחבורה ציבורית
+    </option>
+    <option value="נתמך">
+      נתמך
+    </option>
+    <option value="רכב לחקלאות">
+      רכב לחקלאות
+    </option>
+
+  </select>
+  </div>
+  </div>
+  <div class="column">
+    <legend class="label is-normal">השימוש ברכב הינו למטרות:</legend>
+    <fieldset>
+      <div class="control">
+    <label class="checkbox">
+      <input type="checkbox" name="השימוש ברכב הוא למטרה פרטית" class="checkbox">
+      פרטי
+    </label>
+
+
+    <label class="checkbox">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרה ציבורית" >
+    ציבורי
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרה אחרת">
+      אחר
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרת עסק">
+      עסק
+    </label>
+  </div>
+  <div class="control" style="margin-top: 15px;">
+    <label class="checkbox">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרת לימוד נהיגה">
+      לימוד נהיגה
+    </label>
+    <label class="checkbox" style="margin-right: 11px;">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרת תיירות">
+      תיירות
+    </label>
+  </div>
+    <div class="control" style="margin-top: 15px;">
+    <label class="checkbox">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרת שדה תעופה">
+      שדה התעופה
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" class="checkbox" name="השימוש ברכב הוא למטרת הסעת תלמידים">
+      הסעת תלמידים
+    </label>
+  </div>
+  </fieldset>
+  </div>
+  </div>
+  <div class="title is-size-2 is-size-3-mobile ama-font">
+    פרטי הרכב
+  </div>
+  <div class="columns">
+    <div class="column is-one-third">
+    <label class="label is-normal">
+      קוד דגם
+    </label>
+    <input type="text" class="input" name="קוד דגם" >
+  </div>
+
+  <div class="column">
+    <label class="label is-normal">
+      מספר רישוי
+    </label>
+    <input type="text" class="input" name="מס' רישוי" required oninvalid="this.setCustomValidity('יש להזין מספר רישוי ')"
+    oninput="this.setCustomValidity('')">
+  </div>
+  <div class="column">
+    <label class="label is-normal">
+      מספר  שילדה
+    </label>
+    <input type="text" class="input" name="מס' שילדה" >
+  </div>
+</div>
+  <div class="columns">
+    <div class="column is-one-third">
+      <label class="label is-normal">
+        סמ"ק/משקל
+      </label>
+      <input type="text" class="input" name="סמק/משקל" >
+    </div>
+    <div class="column">
+      <label class="label is-normal">
+        שנת יצור/עליה על הכביש
+      </label>
+      <input type="text" class="input" name="שנת יצור/עליה על הכביש" >
+    </div>
+    <div class="column">
+      <label class="label is-normal">
+        יצרן ודגם
+      </label>
+      <input class="input" type="text" name="יצרן ודגם" >
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column is-one-third">
+      <label class="label is-normal">
+        מספר נוסעים
+      </label>
+      <input type="number" class="input" name="מספר נוסעים" >
+    </div>
+    <div class="column">
+      <label class="label is-normal">
+        האם יש ברכב כריות אוויר?
+      </label>
+      <fieldset>
+        <div class="control">
+        <label class="radio">
+          <input type="radio" name="האם יש כריות אוויר">
+          לא
+        </label>
+      </div>
+        <label class="radio">
+          <input type="radio"  name="האם יש כריות אוויר">
+          כן
+        </label>
+      </fieldset>
+    </div>
+    <div class="column">
+      <label class="label is-normal">
+        תיבת הילוכים:
+      </label>
+      <fieldset>
+        <div class="control">
+        <label class="radio">
+          <input type="radio" name="ידני/אוטומט">
+          רגיל
+        </label>
+      </div>
+        <label class="radio">
+          <input type="radio"  name="ידני/אוטומט">
+          אוטומט
+        </label>
+      </fieldset>
+    </div>
+  </div>
+  <div class="columns">
+  <div class="column is-one-third">
+    <label class="label is-normal">
+      האם הרכב בבעלות:
+    </label>
+
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="בעל הרכב הוא">
+          המבוטח/ת
+        </label>
+      </div>
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="בעל הרכב הוא">
+          בן/בת הזוג
+        </label>
+      </div>
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="בעל הרכב הוא">
+          אחר
+        </label>
+        </div>
+      </div>
+
+    <div class="column">
+      <label class="radio">
+        <input type="radio" name="בעל הרכב הוא" >
+        חברה, האם נמנה על צי של 5 רכבים ומעלה?
+      </label>
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="האם נמנה על צי של 5 רכבים ומעלה">
+          לא
+        </label>
+      </div>
+        <label class="radio">
+          <input type="radio" name="האם נמנה על צי של 5 רכבים ומעלה">
+          כן
+        </label>
+
+    </div>
+    <div class="column">
+      <label class="label is-normal">
+        הרכב בבעלות הנ"ל החל מתאריך:
+      </label>
+      <input type="date" name="הרכב בבעלות הנמצא למעלה מ:">
+    </div>
+
+    </div>
+    <div class="title is-size-2 is-size-3-mobile ama-font">
+      פרטי הנוהגים ברכב
+    </div>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          רשאים לנהוג ברכב, מהגיל המסומן ומעלה:
+        </label>
+        <div class="control">
+        <label class="radio">
+          <input type="radio" name="רשאים לנהוג ברכב מהגיל המסומן ומעלה:">
+          כל נהג
+        </label>
+      </div>
+        <label class="radio" >
+          <input type="radio" name="רשאים לנהוג ברכב מהגיל המסומן ומעלה:">
+          נהג יחיד נקוב בשם
+        </label>
+
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="רשאים לנהוג ברכב מהגיל המסומן ומעלה:">
+          נהגת יחידה נקובה שם
+        </label>
+        <label class="radio" >
+          <input type="radio" name="רשאים לנהוג ברכב מהגיל המסומן ומעלה:">
+          בני זוג נקובים בשם
+        </label>
+        <label class="radio" style="margin-right: 7px;">
+          <input type="radio" name="רשאים לנהוג ברכב מהגיל המסומן ומעלה:">
+          3 נהגים נקובים בשם
+        </label>
+
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          גיל הנהג הצעיר ביותר שינהג ברכב הוא:
+        </label>
+        <input type="number" class="input" name="גיל הנהג הצעיר ביותר שינהג ברכב">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' הנוהגים ברכב באופן קבוע:
+        </label>
+        <input type="number" class="input" name="מספר הנוהגים באופן קבוע">
+        <label class="label is-normal">
+          האם ינהג ברכב נהג בעל ותק נהיגה פחות משנה?
+         </label>
+        <label class="radio">
+
+          <input type="radio" name="האם ינהג ברכב נהג בעל ותק נהיגה פחות משנה">
+          לא
+        </label>
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="האם ינהג ברכב נהג בעל ותק נהיגה פחות משנה">
+          כן
+        </label>
+        <label class="label is-normal">
+          האם ינהג ברכב נהג בעל ותק נהיגה פחות משנתיים?
+         </label>
+         <label class="radio">
+          <input type="radio" name="האם ינהג ברכב נהג בעל ותק נהיגה פחות משנתיים">
+          לא
+        </label>
+         <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="האם ינהג ברכב נהג בעל ותק נהיגה פחות משנתיים">
+          כן
+        </label>
+      </div>
+    </div>
+    <label class="label is-normal">
+      לרכב חברה:
+    </label>
+    <div class="columns">
+      <div class="column is-half">
+
+        <label class="label is-normal">
+          ציין את מיקום החניה בלילה:
+        </label>
+        <input type="text" class="input" name="מיקום החנייה בלילה, רכב חברה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          ציין מס' ק"מ ממוצע ליום ב-3 השנים האחרונות
+        </label>
+        <input type="number" class="input" name="קמ ממוצע ליום ב3 השנים האחרונות, רכב חברה">
+      </div>
+    </div>
+    <hr>
+    <label class="label is-normal">
+      נהג עיקרי
+    </label>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          שם פרטי
+        </label>
+        <input type="text" class="input" name="נהג עיקרי שם פרטי">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          שם משפחה
+        </label>
+        <input type="text" class="input" name="נהג עיקרי שם משפחה">
+
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מספר ת.ז
+        </label>
+        <input type="text" class="input" name="נהג עיקרי ת.ז">
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <label class="label is-normal">
+          תאריך לידה
+        </label>
+        <input type="date" name="נהג עיקרי תאריך לידה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מין
+        </label>
+        <label class="radio">
+          <input type="radio" name="נהג עיקרי מין">
+          זכר
+        </label>
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="נהג עיקרי מין">
+          נקבה
+        </label>
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' שלילות רישיון נהיגה
+        </label>
+        <input type="number" class="input" name="מספר שלילות רישיון נהג עיקרי">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' תאונות עם נפגעי גוף
+        </label>
+        <input type="number" class="input" name="תאונות עם נפגעי גוף נהג עיקרי">
+      </div>
+    </div>
+    <hr>
+    <label class="label is-normal">
+      נהג נוסף
+    </label>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          שם פרטי
+        </label>
+        <input type="text" class="input" name="נהג נוסף שם פרטי">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          שם משפחה
+        </label>
+        <input type="text" class="input" name="נהג נוסף שם משפחה">
+
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מספר ת.ז
+        </label>
+        <input type="text" class="input" name="נהג נוסף ת.ז">
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <label class="label is-normal">
+          תאריך לידה
+        </label>
+        <input type="date" name="נהג נוסף תאריך לידה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מין
+        </label>
+        <label class="radio">
+          <input type="radio" name="נהג נוסף מין">
+          זכר
+        </label>
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="נהג נוסף מין">
+          נקבה
+        </label>
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' שלילות רישיון נהיגה
+        </label>
+        <input type="number" class="input" name="מספר שלילות רישיון נהג נוסף">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' תאונות עם נפגעי גוף
+        </label>
+        <input type="number" class="input" name="תאונות עם נפגעי גוף נהג נוסף">
+      </div>
+    </div>
+    <hr>
+    <label class="label is-normal">
+      נהג צעיר
+    </label>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          שם פרטי
+        </label>
+        <input type="text" class="input" name="נהג צעיר שם פרטי">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          שם משפחה
+        </label>
+        <input type="text" class="input" name="נהג צעיר שם משפחה">
+
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מספר ת.ז
+        </label>
+        <input type="text" class="input" name="נהג צעיר ת.ז">
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <label class="label is-normal">
+          תאריך לידה
+        </label>
+        <input type="date" name="נהג צעיר תאריך לידה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מין
+        </label>
+        <label class="radio">
+          <input type="radio" name="נהג צעיר מין">
+          זכר
+        </label>
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="נהג צעיר מין">
+          נקבה
+        </label>
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' שלילות רישיון נהיגה
+        </label>
+        <input type="number" class="input" name="מספר שלילות רישיון נהג צעיר">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' תאונות עם נפגעי גוף
+        </label>
+        <input type="number" class="input" name="תאונות עם נפגעי גוף נהג צעיר">
+      </div>
+    </div>
+    <hr>
+    <label class="label is-normal">
+      בן/בת זוג
+    </label>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          שם פרטי
+        </label>
+        <input type="text" class="input" name="נהג בן/בת זוג שם פרטי">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          שם משפחה
+        </label>
+        <input type="text" class="input" name="נהג בן/בת זוג שם משפחה">
+
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מספר ת.ז
+        </label>
+        <input type="text" class="input" name="נהג בן/בת זוג ת.ז">
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <label class="label is-normal">
+          תאריך לידה
+        </label>
+        <input type="date" name="נהג בן/בת זוג תאריך לידה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מין
+        </label>
+        <label class="radio">
+          <input type="radio" name="נהג בן/בת זוג מין">
+          זכר
+        </label>
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="נהג בן/בת זוג מין">
+          נקבה
+        </label>
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' שלילות רישיון נהיגה
+        </label>
+        <input type="number" class="input" name="מספר שלילות רישיון נהג בן/בת זוג">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          מס' תאונות עם נפגעי גוף
+        </label>
+        <input type="number" class="input" name="תאונות עם נפגעי גוף נהג בן/בת זוג">
+      </div>
+    </div>
+    <label class="label is-normal">
+      פרטי הנהג הצעיר ביותר הנוהג ברכב דרך קבע
+    </label>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          תאריך לידה
+        </label>
+        <input type="date" name="תאריך לידה הנהג הצעיר ביותר">
+      </div>
+      <div class="column">
+        <label class="label is-normal">שנת קבלת רישיון לנהיגה ברכב מסוג זה בישראל</label>
+        <input type="text" name="שנת קבלת רישיון נהיגה לרכב מסוג זה בישראל">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          ותק נהיגה
+        </label>
+        <label class="radio">
+          <input type="radio" name="ותק נהיגה הנהג הצעיר ביותר">
+          עד 12 חודשים
+        </label>
+        <label class="radio">
+          <input type="radio" name="ותק נהיגה הנהג הצעיר ביותר">
+          עד 24 חודשים
+        </label>
+        <label class="radio">
+          <input type="radio" name="ותק נהיגה הנהג הצעיר ביותר">
+           מעל שנתיים
+        </label>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-half is-centered">
+        <label class="label is-normal">האם בעת רכישת הרכב שולמו מיסים?</label>
+        <label class="radio" >
+          <input type="radio" name="האם בעת רכישת הרכב שולמו מיסים">
+          כן
+        </label>
+        <label class="radio" style="margin-right: 15px;">
+          <input type="radio" name="האם בעת רכישת הרכב שולמו מיסים">
+          לא, הסיבה:
+        </label>
+        <input type="text" class="input" name="אם לא שולמו מיסים, הסיבה:">
+      </div>
+    </div>
+    <h2 class="title is-size-3-mobile is-size-2 ama-font">וותק ביטוחי </h2>
+    <label class="label is-normal">
+      ציין את מס' התביעות ב-3 השנים האחרונות וחברת הביטוח בה בוטח הרכב:
+    </label>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          מס' התביעות בשנה האחרונה:
+        </label>
+        <input type="number" class="input" name="מס' התביעות בשנה האחרונה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          בחב' הביטוח:
+        </label>
+        <input type="text" class="input" name="חב' ביטוח מס' התביעות בשנה האחרונה">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          נזק:
+        </label>
+        <fieldset >
+          <label class="checkbox">
+            <input type="checkbox" name="נזק צד ג' בשנה האחרונה">
+            צד ג'
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק רכב המבוטח בשנה האחרונה">
+רכב המבוטח
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק גוף בשנה האחרונה">
+גוף
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק  רכוש בשנה האחרונה">
+            רכוש
+          </label>
+        </fieldset>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          מס' התביעות בשנה הקודמת:
+        </label>
+        <input type="number" class="input" name="מס' התביעות בשנה הקודמת">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          בחב' הביטוח:
+        </label>
+        <input type="text" class="input" name="חב' ביטוח מס' התביעות בשנה הקודמת">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          נזק:
+        </label>
+        <fieldset >
+          <label class="checkbox">
+            <input type="checkbox" name="נזק צד ג' בשנה הקודמת">
+            צד ג'
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק רכב המבוטח בשנה הקודמת">
+רכב המבוטח
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק גוף בשנה הקודמת">
+גוף
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק  רכוש בשנה הקודמת">
+            רכוש
+          </label>
+        </fieldset>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="label is-normal">
+          מס' התביעות לפני 3 שנים :
+        </label>
+        <input type="number" class="input" name="מס' התביעות לפני 3 שנים">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          בחב' הביטוח:
+        </label>
+        <input type="text" class="input" name="חב' ביטוח מס' התביעות לפני 3 שנים">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          נזק:
+        </label>
+        <fieldset >
+          <label class="checkbox">
+            <input type="checkbox" name="נזק צד ג' לפני 3 שנים">
+            צד ג'
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק רכב המבוטח לפני 3 שנים">
+רכב המבוטח
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק גוף לפני 3 שנים">
+גוף
+          </label>
+          <label class="checkbox" style="margin-right: 12px;">
+            <input type="checkbox" name="נזק  רכוש לפני 3 שנים">
+            רכוש
+          </label>
+        </fieldset>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-half">
+        <label class="label is-normal">
+          האם ב-3 השנים האחרונות, חברת ביטוח דחתה את בקשתך לביטוח?
+        </label>
+        <label class="radio">
+          <input type="radio" name="האם ב3 השנים האחרונות חברת ביטוח דחתה את בקשתך לביטוח">
+          לא
+        </label>
+        <label class="radio">
+          <input type="radio" name="האם ב3 השנים האחרונות חברת ביטוח דחתה את בקשתך לביטוח">
+          כן, פרט:
+        </label>
+        <input type="text" class="input" name="פירוט למה נדחתה בקשה לביטוח ב3 השנים האחרונות">
+      </div>
+      <div class="column">
+        <label class="label is-normal">
+          האם ב-3 השנים האחרונות, חברת ביטוח ביטלה או סרבה לחדש את הפוליסה?
+        </label>
+        <label class="radio">
+          <input type="radio" name="האם ב-3 השנים האחרונות חברת ביטוח ביטלה או סרבה לחדש">
+          לא
+        </label>
+        <label class="radio">
+          <input type="radio" name="האם ב-3 השנים האחרונות חברת ביטוח ביטלה או סרבה לחדש">
+          כן, פרט:
+        </label>
+        <input type="text" class="input" name="פירוט למה חברת ביטוח ביטלה או סרבה לחדש ב-3 השנים האחרונות">
+      </div>
+    </div>
+    <h2 class="title is-size-3-mobile is-size-2 ama-font">עברו של הרכב </h2>
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב השכרה">
+          השכרה
+        </label>
+        <label class="checkbox" style="padding: 7%">
+          <input type="checkbox" name="עברו של הרכב סיור ותיור">
+          סיור ותיור
+        </label>
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב מונית">
+          מונית
+        </label>
+
+      </div>
+      <div class="column">
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב מכרז">
+          מכרז
+        </label>
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב בית ספר לנהיגה">
+          בי"ס לנהיגה
+        </label>
+        <label class="checkbox"style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב חברה/עמותה">
+          חברה/עמותה
+        </label>
+      </div>
+      <div class="column">
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב ליסינג/בנק">
+          ליסינג/בנק
+        </label>
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב רכב משוקם">
+          רכב משוקם
+        </label>
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב יבוא אישי">
+          יבוא אישי
+        </label>
+      </div>
+      <div class="column">
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב רכב מסחרי המשמש להסעת נוסעים ואינו אוטובוס זעיר ציבורי">
+          רכב מסחרי המשמש להסעת נוסעים ואינו אוטובוס זעיר ציבורי
+        </label>
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב מדינת ישראל, כולל רכב משטרתי/בטחון">
+          מדינת ישראל, כולל רכב משטרתי/בטחון
+        </label>
+        <label class="checkbox" style="padding: 5%">
+          <input type="checkbox" name="עברו של הרכב חברות ממשלתיות, רשויות מקומיות, אום, קיבוץ">
+          חברות ממשלתיות, רשויות מקומיות, או"ם, קיבוץ
+        </label>
+      </div>
+    </div>
+    <h2 class="title is-size-2 is-size-3-mobile ama-font">הכיסוי הביטוחי המבוקש</h2>
+    <div class="columns">
+      <div class="column is-one-third">
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי חובה">
+          חובה
+        </label>
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי צד שלישי">
+          צד שלישי
+        </label>
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי מקיף">
+          מקיף (כולל צד שלישי)
+        </label>
+      </div>
+      <div class="column">
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי ביטול השתתפות עצמית">
+          ביטול השתתפות עצמית
+        </label>
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי רכב חלופי פרטי ">
+          רכב חלופי פרטי
+        </label>
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי רכב חלופי מסחרי קל / משפחתי">
+          רכב חלופי מסחרי קל / משפחתי
+        </label>
+      </div>
+      <div class="column">
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי ביטול גרירה ">
+          גרירה
+        </label>
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי שרות מורחב בתאונה   ">
+          שרות מורחב בתאונה
+        </label>
+        <label class="checkbox" style="padding: 3%;">
+          <input type="checkbox" name="כיסוי ביטוחי  חבילת שירותי דרך מורחבת">
+         חבילת שירותי דרך מורחבת
+        </label>
+        <label class="checkbox" style="padding: 3%">
+        <input type="checkbox" name="הגדלת השתתפות עצמית פי 2">
+        הגדלת השתתפות עצמית פי 2
+
+        </label>
+        <label class="checkbox" style="padding: 3%">
+          <input type="checkbox" name="הגדלת השתתפות עצמית פי 3">
+          הגדלת השתתפות עצמית פי 3
+
+          </label>
+      </div>
+    </div>
+
+  <div class=" center-text">
+    <button
+    type="submit"
+    class="button is-large is-dark  is-outlined ama-font is-rounded"
+
+  >
+    <span>
+      <i class="far fa-paper-plane"></i>
+    </span>
+    <span class="title is-size-2 bolder">שליחה</span>
+  </button>
+  </div>
+
+
+
+  </div>
+
+
+
+
+  </form>
+
+  <hr>
+<app-footer></app-footer>
