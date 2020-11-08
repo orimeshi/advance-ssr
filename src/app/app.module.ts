@@ -18,7 +18,7 @@ import { BusinessformComponent } from './businessform/businessform.component';
 import { CargoformComponent } from './cargoform/cargoform.component';
 import { PropertyformComponent } from './propertyform/propertyform.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { BeautyformComponent } from './beautyform/beautyform.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     BusinessformComponent,
     CargoformComponent,
     PropertyformComponent,
-    FooterComponent
+    FooterComponent,
+    BeautyformComponent
 
   ],
   imports: [

@@ -14,6 +14,7 @@ import { PropertyformComponent } from './propertyform/propertyform.component';
 import { BusinessformComponent } from './businessform/businessform.component';
 import { HealthformComponent } from './healthform/healthform.component';
 import { CargoformComponent } from './cargoform/cargoform.component';
+import { BeautyformComponent } from './beautyform/beautyform.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path: 'online/businessform', component: BusinessformComponent},
   {path: 'online/healthform', component: HealthformComponent},
   {path: 'online/cargoform', component: CargoformComponent},
+  {path: 'online/beautyform', component: BeautyformComponent}
 
 
 

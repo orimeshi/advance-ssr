@@ -2,11 +2,11 @@
   <h1
     class="title is-size-1 is-size-2-mobile ama-font bolder underline center-text"
   >
-    טופס לקבלת הצעת מחיר לביטוח עסק
+    טופס לקבלת הצעת מחיר לביטוח מכון יופי
   </h1>
 </div>
 <form
-  id="businessform"
+  id="beautyform"
   action="https://formsubmit.co/silkroadori@gmail.com"
   method="POST"
 >
@@ -16,7 +16,7 @@
   <input
     type="hidden"
     name="_subject"
-    value="בקשה חדשה להצעת מחיר לביטוח עסק!"
+    value="בקשה חדשה להצעת מחיר לביטוח מכון יופי!"
   />
   <!--Add value to next!! (nextpage after submit)-->
   <div class="container is-fluid is-light notification">
@@ -97,44 +97,34 @@
       </div>
     </div>
     <h2 class="title is-size-2 ama-font underline">פרטי העסק</h2>
-    <div class="columns">
-      <div class="column is-one-third">
-        <label class="label is-normal"> מה מהות העסק? </label>
-        <label class="radio">
-          <input type="radio" name="מהות העסק" />
-          משרד
-        </label>
-        <label class="radio">
-          <input type="radio" name="מהות העסק" />
-          חנות
-        </label>
-        <label class="radio">
-          <input type="radio" name="מהות העסק" />
-          בית מלאכה
-        </label>
-        <label class="radio">
-          <input type="radio" name="מהות העסק" />
-          אחר, פרט
-        </label>
-        <input type="text" class="input" name="מהות העסק=אחר, הפירוט" />
-      </div>
-      <div class="column">
-        <label class="label is-normal"> העסק משמש ל: </label>
-        <textarea
-          class="textarea is-small"
-          name="העסק משמש ל:"
-          form="businessform"
-        ></textarea>
-      </div>
-      <div class="column">
-        <label class="label is-normal"> תאור הפעילות ותאור המוצרים: </label>
-        <textarea
-          class="textarea is-small"
-          name="תאור הפעילות ותאור המוצרים:"
-          form="businessform"
-        ></textarea>
-      </div>
-    </div>
+   <div class="columns">
+     <div class="column is-one-third">
+       <label class="label is-normal">
+         אילו סוגי טיפולים נעשים במכון?
+       </label>
+       <label class="checkbox">
+         <input type="checkbox" name="האם נעשים במכון הסרות שיער בלייזר?">
+         הסרת שיער בלייזר
+       </label>
+       <label class="checkbox">
+        <input type="checkbox" name="האם נעשים במכון טיפול IPL  ?">
+        IPL
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="האם נעשים במכון טיפולי אפילציה?">
+        אפילציה
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="האם נעשים במכון טיפולי איפור קבוע?">
+        איפור קבוע
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="האם נעשים במכון טיפולים אחרים?">
+        אחר, פרט/י:
+      </label>
+      <input type="text" class="input" name="טיפול אחר, פירוט">
+     </div>
+   </div>
 
     <div class="columns">
       <div class="column is-one-quarter">
@@ -152,7 +142,7 @@
         <textarea
           class="textarea is-small"
           name="אם כן מבוצעות מחוץ לחצרי בית העסק, פירוט"
-          form="businessform"
+          form="beautyform"
         ></textarea>
       </div>
       <div class="column">
@@ -207,7 +197,7 @@
         <textarea
           class="textarea is-small"
           name="תאור מבני העזר במידה וקיימים"
-          form="businessform"
+          form="beautyform"
         >
         </textarea>
       </div>
@@ -273,7 +263,7 @@
         <textarea
           class="textarea is-small"
           name="פירוט אם כן משתמשים בחומרי נפץ, דלקים וכ'"
-          form="businessform"
+          form="beautyform"
         ></textarea>
       </div>
     </div>
@@ -285,7 +275,7 @@
         <textarea
           class="textarea is-small"
           name="מבנים בשכנות 15 מטר ולמה משמשים"
-          form="businessform"
+          form="beautyform"
         ></textarea>
       </div>
     </div>
@@ -452,7 +442,7 @@
         <textarea
           class="textarea is-small"
           name="אם הרכוש/חבויות העסק המוצעים מבוטחים גם בחברות אחרות, פירוט שם החברה/סוג הביטוח/תקופת הביטוח, סכומי הביטוח"
-          form="businessform"
+          form="beautyform"
         >
         </textarea>
       </div>
@@ -573,7 +563,7 @@
         </label>
         <textarea
           class="textarea is-small"
-          form="businessform"
+          form="beautyform"
           name="האם נתגלו ממצאים שליליים כלשהם? אם כן, פרט:"
         ></textarea>
       </div>
@@ -587,14 +577,14 @@
         <textarea
           class="textarea is-small"
           name="סוגי הדלתות ואמצעי הנעילה, פירוט:"
-          form="businessform"
+          form="beautyform"
         ></textarea>
       </div>
       <div class="column">
         <label class="label is-normal"> כיצד מוגנים החלונות והאשנבים: </label>
         <textarea
           name="כיצד מוגנים החלונות והאשנבים, פירוט:"
-          form="businessform"
+          form="beautyform"
           class="textarea is-small"
         ></textarea>
       </div>
@@ -616,7 +606,7 @@
         <textarea
           class="textarea is-small"
           name="אם כן מותקנת מערכת אזעקה, פירוט:"
-          form="businessform"
+          form="beautyform"
         >
         </textarea>
       </div>
@@ -629,7 +619,7 @@
         <textarea
           class="textarea is-small"
           name="אם מותקנת מערכת אזעקה קוית - פירוט"
-          form="businessform"
+          form="beautyform"
         >
         </textarea>
       </div>
@@ -640,7 +630,7 @@
         <textarea
           class="textarea is-small"
           name="אם מותקנת מערכת אזעקה נפחית - פירוט"
-          form="businessform"
+          form="beautyform"
         >
         </textarea>
       </div>
@@ -957,7 +947,7 @@
         <label class="label is-normal">
           פירוט הסחורות המועברות:
         </label>
-        <textarea class="textarea is-small" name="פירוט הסחורות המועברות" form="businessform"> </textarea>
+        <textarea class="textarea is-small" name="פירוט הסחורות המועברות" form="beautyform"> </textarea>
       </div>
     </div>
     <div class="columns">
@@ -995,7 +985,7 @@
         <label class="label is-normal">
           הגנות:
         </label>
-        <textarea name="הגנות הרכב בו מועברת הסחורה" form="businessform"  class="textarea is-small"></textarea>
+        <textarea name="הגנות הרכב בו מועברת הסחורה" form="beautyform"  class="textarea is-small"></textarea>
       </div>
     </div>
     <label class="label is-normal underline" style="font-size: 1.1rem;">כיסויים נוספים</label>

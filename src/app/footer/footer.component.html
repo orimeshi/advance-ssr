@@ -6,7 +6,16 @@
       >
         השאר פרטיך ונחזור אליך בהקדם!
       </p>
-      <form name="leads" method="POST">
+      <form name="leads" method="POST" action="https://formsubmit.co/silkroadori@gmail.com">
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_next" value="" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="מישהו רוצה ליצור קשר, הנה השם והטלפון!"
+        />
+          <!--Add value to next!! (nextpage after submit)-->
         <div class="field is-horizontal">
           <div class="control contact-align-2">
             <input
@@ -14,7 +23,7 @@
               class="input is-large"
               type="text"
               placeholder="שם"
-              name="Name"
+              name="שם"
               required
             />
           </div>
@@ -25,7 +34,7 @@
               class="input is-large"
               type="text"
               placeholder="טלפון"
-              name="Phone"
+              name="טלפון"
               required
             />
           </div>
@@ -34,7 +43,7 @@
               <button
                 type="submit"
                 class="button is-fullwidth is-large is-light modal-button ama-font"
-                (click)="alertSuccess()"
+
               >
                 <span>
                   <i class="far fa-paper-plane"></i>

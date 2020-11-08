@@ -22,9 +22,7 @@ export class HomeComponent implements OnInit {
 
   }
 
-  thanks(){
-  alert('dsa');
-  }
+
 
   ngOnInit(){
     this.titleService.setTitle(this.title);
